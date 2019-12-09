@@ -3,7 +3,10 @@ package com.company.lesson13;
 public class Main {
     public static void main(String[] args) {
         Person ser = new Person(); // ser - объект
-        System.out.print(ser.height); // вызывали поле height из класса Person для объекта ser
+        ser.height = 166;
+        System.out.println(ser.height); // вызывали поле height из класса Person для объекта ser
+        Person vlad = new Person();
+        System.out.print(vlad.height);
 
     }
 }
