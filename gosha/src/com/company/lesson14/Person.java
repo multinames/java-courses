@@ -8,15 +8,15 @@ public class Person {
 
 
     // Конструкторы
-    public Person () { //конструктор по умолчанию
+    Person () { //конструктор по умолчанию
          }
 
-    public Person (int h, String n) {
+    Person (int h, String n) {
         height = h;
         name = n;
         }
 
-    public Person (String n) {
+     Person (String n) {
         name = n;
     }
 

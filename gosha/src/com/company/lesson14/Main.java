@@ -12,6 +12,7 @@ public class Main {
 
         Person dima = new Person("Dima");
         System.out.print(dima.name);
+        System.out.println();
 
     }
 }
