@@ -1,6 +1,6 @@
 package com.company.lesson15;
 
-import com.company.lesson15.Person;
+// Наследование
 
 public class Main {
     public static void main(String[] args) {
