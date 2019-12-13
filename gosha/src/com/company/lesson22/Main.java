@@ -13,7 +13,7 @@ public class Main {
 
         System.out.println("");
 
-        Array b = new ArrayN();
+        Array b = new MyArrayN();
         System.out.println(b.Add(3));
         System.out.println(b.Add(23));
         System.out.println(b.Add(34));

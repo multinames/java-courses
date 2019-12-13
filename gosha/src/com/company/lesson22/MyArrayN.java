@@ -1,6 +1,6 @@
 package com.company.lesson22;
 
-public class ArrayN implements Array{
+public class MyArrayN implements Array{
     int a [] = new int [4];
     int size = 0;
 
