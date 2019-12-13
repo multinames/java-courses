@@ -12,7 +12,7 @@ public class ArrayN implements Array{
             return a[0];
     }
 
-    @Override  // реализация метода интерфейса Get
+    @Override  // реализация метода интерфейса Add
     public boolean Add(int val) {
         if (size != a.length) {
             a[size] = val;
