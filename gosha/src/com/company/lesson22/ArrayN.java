@@ -1,22 +1,24 @@
 package com.company.lesson22;
 
-public class MyArray implements Array { // Данный класс реализует интерфейс
+public class ArrayN implements Array{
     int a [] = new int [4];
     int size = 0;
 
     @Override  // реализация метода интерфейса Get
     public int Get(int i) {
-        return a[i];
+        if (i < a.length)
+            return a[a.length - i - 1];
+        else
+            return a[0];
     }
 
-    @Override  // реализация метода интерфейса Add
+    @Override  // реализация метода интерфейса Get
     public boolean Add(int val) {
         if (size != a.length) {
             a[size] = val;
             size++;
             return true;
-
         } else
-        return false;
+            return false;
     }
 }
