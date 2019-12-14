@@ -6,21 +6,26 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class SimpleGUI extends JFrame {
-    private JButton button = new JButton("Press");
-    private JTextField input = new JTextField("",5);
-    private JLabel label = new JLabel("Input:");
-    private JRadioButton radio1 = new JRadioButton("Select this");
-    private JRadioButton radio2 = new JRadioButton("Select That");
-    private JCheckBox check = new JCheckBox("Check", false);
+public class SimpleGUI extends JFrame { // Класс наследуется от класса JFrame
+    private JButton button = new JButton("Press");  // Элемент создания кнопки
+    private JTextField input = new JTextField("",5); // Элемент создания текстовго поля
+    private JLabel label = new JLabel("Input:"); // Элемент отображения текста подсказки
+    private JRadioButton radio1 = new JRadioButton("Select this"); // Элемент создания кнопки выбора
+    private JRadioButton radio2 = new JRadioButton("Select That"); // Элемент создания кнопки выбора
+    private JCheckBox check = new JCheckBox("Check", false); // Элемент создания чекбокса
 
     public SimpleGUI () {  // конструктор
         super ("Simple Example"); // конструктор класса JFrame
         this.setBounds(100,100,250,100);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        Container container = this.getContentPane();
+        // Используем контейнеры, чтлбы сгрупировать элементы в одну форму
+
+        Container container = this.getContentPane();  // создаем обект на сонова класса Container c с методом getContentPane
         container.setLayout(new GridLayout(3,2,2,2));
+
+        // Добавляем элементы в контейнер
+
         container.add(label);
         container.add(input);
 
@@ -34,10 +39,13 @@ public class SimpleGUI extends JFrame {
         container.add(radio2);
         container.add(check);
 
+        // Вызов нового класса в который будет помещено действи по кнопке
+
         button.addActionListener(new ButtonEvenetListener());
         container.add(button);
 
     }
+        // Создаение класса ВuttonEvenetListener
 
     class ButtonEvenetListener implements ActionListener {
         public void actionPerformed (ActionEvent e) {
