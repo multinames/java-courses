@@ -11,8 +11,6 @@ public class Student {
 }
 
 class StudentTest{
-    private static double summ;
-
 
     public static void main(String[] args) {
         Student Piter = new Student();
@@ -46,7 +44,7 @@ class StudentTest{
         System.out.println("Средняя оценка студента " +  Piter.student_name + " " + Piter.student_lastname + " " +(Piter.avg_math+Piter.avg_ecom+Piter.avg_lang)/3);
         System.out.println("Средняя оценка студента " +  Mike.student_name + " " + Mike.student_lastname + " " +(Mike.avg_math+Mike.avg_ecom+Mike.avg_lang)/3);
         System.out.println("Средняя оценка студента " +  Jonh.student_name + " " + Jonh.student_lastname + " " +(Jonh.avg_math+Jonh.avg_ecom+Jonh.avg_lang)/3);
-        summ = (Jonh.avg_math+Jonh.avg_ecom+Jonh.avg_lang)/3;
+
 
 
 
