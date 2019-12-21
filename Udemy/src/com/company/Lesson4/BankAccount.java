@@ -1,3 +1,5 @@
+package com.company.Lesson4;
+
 public class BankAccount {
     // Переменный ибъекта instance
     int id =10;
