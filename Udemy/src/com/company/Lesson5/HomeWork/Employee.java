@@ -1,17 +1,17 @@
 package com.company.Lesson5.HomeWork;
 
-// Задача - увелчить з/п вдвое для сотрадника
+// Задача - увелчить з/п вдвое для сотрудника
 
 public class Employee {
 
-    // переменные для сотрадника
+    // переменные для сотрудника
     int id;
     String surname;
     int age;
     double salary;
     String department;
 
-    // метод увеличения з/п вдвое
+    // шаблон метода увеличения з/п вдвое
 
     double salaryIncrease(String name, double zarplata) {
         double NewSalary = zarplata * 2;
@@ -23,7 +23,9 @@ public class Employee {
 class TestEmployee{
 
     public static void main(String[] args) {
+
         Employee emp1 = new Employee();
+
         emp1.surname = "Иванов";
         emp1.age = 29;
         emp1.department = "IT";
