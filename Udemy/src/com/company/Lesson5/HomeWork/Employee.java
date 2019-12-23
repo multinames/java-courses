@@ -1,6 +1,6 @@
 package com.company.Lesson5.HomeWork;
 
-// Задача - велчить з/п в двое для сотрадника
+// Задача - увелчить з/п вдвое для сотрадника
 
 public class Employee {
 
@@ -29,7 +29,7 @@ class TestEmployee{
         emp1.department = "IT";
         emp1.salary = 1250.90;
 
-        System.out.println("Оклад для "+emp1.surname+ " теперь состалвяет "+ emp1.salaryIncrease(emp1.surname, emp1.salary));
+        System.out.println("Оклад для "+emp1.surname+ " теперь составляет: "+ emp1.salaryIncrease(emp1.surname, emp1.salary) +" USD");
 
     }
 
