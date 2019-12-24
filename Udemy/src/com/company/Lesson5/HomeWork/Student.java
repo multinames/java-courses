@@ -11,18 +11,18 @@ public class Student {
     int ecomAverageGrade;
     double langAverageGrade;
 
-    void AverageGrade (String lastname, int math, int econ, int lang){
-        double srednyayaOcenka = (math+econ+lang) /3;
-        System.out.println("Средня оценка студента " + lastname + " : " + srednyayaOcenka);
-    }
 }
 
 class StudentTest {
 
+    double AverageGrade (Student st){
+        double srednyayaOcenka = (st.mathAverageGrade+st.ecomAverageGrade+st.langAverageGrade) /3;
+        System.out.println("Средняя оценка студента " + st.student_lastname+  " " + st.student_lastname + ": " +srednyayaOcenka);
+        return srednyayaOcenka;
+    }
+
     public static void main(String[] args) {
         Student Piter = new Student();
-        Student Mike = new Student();
-        Student Jonh = new Student();
 
         Piter.studient_card = 110;
         Piter.student_name = "Петя";
@@ -32,7 +32,7 @@ class StudentTest {
         Piter.ecomAverageGrade = 3;
         Piter.langAverageGrade = 5;
 
-        Piter.AverageGrade(Piter.student_lastname,4,3,5);
+        Student Mike = new Student();
 
         Mike.studient_card = 115;
         Mike.student_name = "Миша";
@@ -42,7 +42,7 @@ class StudentTest {
         Mike.ecomAverageGrade = 4;
         Mike.langAverageGrade = 4;
 
-        Piter.AverageGrade(Mike.student_lastname,5,4,4);
+        Student Jonh = new Student();
 
         Jonh.studient_card = 120;
         Jonh.student_name = "Женя";
@@ -52,11 +52,13 @@ class StudentTest {
         Jonh.ecomAverageGrade = 3;
         Jonh.langAverageGrade = 4;
 
-        Piter.AverageGrade(Jonh.student_lastname, 4,3,4);
+        StudentTest sTest = new StudentTest() ;
 
-        /*System.out.println("Средняя оценка студента " + Piter.student_name + " " + Piter.student_lastname + " " + (Piter.mathAverageGrade + Piter.ecomAverageGrade + Piter.langAverageGrade) / 3);
-        System.out.println("Средняя оценка студента " + Mike.student_name + " " + Mike.student_lastname + " " + (Mike.mathAverageGrade + Mike.ecomAverageGrade + Mike.langAverageGrade) / 3);
-        System.out.println("Средняя оценка студента " + Jonh.student_name + " " + Jonh.student_lastname + " " + (Jonh.mathAverageGrade + Jonh.ecomAverageGrade + Jonh.langAverageGrade) / 3);*/
+        sTest.AverageGrade(Piter);
+        sTest.AverageGrade(Mike);
+        sTest.AverageGrade(Jonh);
+
+
 
     }
 
