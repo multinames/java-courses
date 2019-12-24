@@ -1,5 +1,7 @@
 package com.company.Lesson6;
 
+// Использование this для вызова Overloaded конструтора внутри конструтора
+
 public class Employee {
     // Определяем параметры работника в конструкторе
 
@@ -7,7 +9,7 @@ public class Employee {
         this (id2,surname2, age2,0.0,null);
     }
 
-    Employee (String surname3, int age3) {
+    public Employee(String surname3, int age3) {
         this (0,surname3, age3,0.0,null);
     }
 
