@@ -2,6 +2,8 @@ package com.company.Lesson5.HomeWork;
 
 import java.util.PrimitiveIterator;
 
+// Вычисление средней оценки студентов на курсе
+
 public class Student {
     int studient_card;
     String student_name;
@@ -15,10 +17,10 @@ public class Student {
 
 class StudentTest {
 
-    double AverageGrade (Student st){
+    void AverageGrade (Student st){
         double srednyayaOcenka = (st.mathAverageGrade+st.ecomAverageGrade+st.langAverageGrade) /3;
         System.out.println("Средняя оценка студента " + st.student_lastname+  " " + st.student_lastname + ": " +srednyayaOcenka);
-        return srednyayaOcenka;
+        // return srednyayaOcenka;
     }
 
     public static void main(String[] args) {
