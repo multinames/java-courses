@@ -3,9 +3,10 @@ package com.company.Lesson9;
 public class Car {
 
     int s = 10;
+    public static int a = 10;
     String color;
     String engine;
-    static int count;
+    public static int count;
 
     public Car(String color, String engine){  // Конструктор
         int x=5;
