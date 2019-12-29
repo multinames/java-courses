@@ -7,7 +7,7 @@ public class Car {
     String engine;
     static int count;
 
-    Car(String color, String engine ){  // Конструктор
+    public Car(String color, String engine){  // Конструктор
         int x=5;
         int y = x+10;
         count++;
