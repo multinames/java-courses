@@ -12,5 +12,6 @@ public class Home1 {
         abc();
         abc();
         String s1 = new String("ABC");
+        abc();
     }
 }
