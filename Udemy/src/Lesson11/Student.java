@@ -1,5 +1,6 @@
 package Lesson11;
 
+// Lesson 11, изменние данных объекта
 public class Student {
     String name;
     int course;

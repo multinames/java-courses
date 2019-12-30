@@ -1,5 +1,7 @@
 package Lesson11;
 
+// Lesson 11
+
 public class Employee {
     public String name;
     public double salary;
