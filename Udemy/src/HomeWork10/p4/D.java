@@ -1,9 +1,9 @@
-package HomeWork10.p1.p2.p3.p4;
+package HomeWork10.p4;
+
 import HomeWork10.p1.A;
-import HomeWork10.p1.A.*;
-import static HomeWork10.p1.p2.B.st1;  // вывод static-переменной st1
+import static HomeWork10.p1.p2.B.st1;
 import HomeWork10.p1.p2.B;
-import HomeWork10.p1.p2.p3.p4.p5.E;
+import HomeWork10.p4.p5.E;
 
 public class D {
     public static void main(String[] args) {
