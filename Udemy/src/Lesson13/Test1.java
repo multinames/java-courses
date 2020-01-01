@@ -11,11 +11,11 @@ class Student{
     }
 
     public static void main(String[] args) {
-        Student st1 = new Student(2);
+        Student st1 = new Student(1);
         switch (st1.grade) {
             case 2:
                 System.out.println("Двоешник");
-                //break;
+                break;
             case 3:
                 System.out.println("Троешник");
                 break;
