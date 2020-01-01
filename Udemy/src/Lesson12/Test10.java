@@ -1,26 +1,23 @@
 package Lesson12;
 
 public class Test10 {
+
+        void maximum(int i1, int i2, int i3) {
+            if (i1 > i2 && i1 > i3) {
+                System.out.println("Maximus " +i1);
+            }
+            else if (i2 > i1 && i2>i3) {
+                System.out.println("Maximum " +i2);            }
+            else {
+                System.out.println("Maximum " +i3);
+            }
+        }
+
     public static void main(String[] args) {
-        int salary = 1500;
-        boolean b = true;
-
-        if (salary <200) {
-            System.out.println("Low!!!");
-        }
-        else if (salary <400 && b==false || !true ) {
-            System.out.println("Midle");
-        }
-        else if (salary <600 ) {
-            System.out.println("Good");
-        }
-        else {
-            System.out.println("Very Good!!!");
-        }
-
-
-
-
+        Test10 t1 = new Test10();
+        t1.maximum(4,7,0);
     }
 
 }
+
+
