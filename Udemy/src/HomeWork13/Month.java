@@ -34,5 +34,6 @@ public class Month {
 
     public static void main(String[] args) {
         month2015(4);
+        Month.month2015(13);
     }
 }
