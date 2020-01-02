@@ -26,6 +26,9 @@ public class Month {
                 System.out.println("30 дней");
                 break;
             }
+            default:
+                System.out.println("Такого месяца не существует");
+
         }
     }
 
