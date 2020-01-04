@@ -10,7 +10,5 @@ public class Test1 {
         StringBuilder sb1 = new StringBuilder("Hello");
         StringBuilder sb2 = new StringBuilder("Hello");
         System.out.println(ravenstvo(sb1, sb2));
-
-
     }
 }
