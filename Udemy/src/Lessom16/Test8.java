@@ -16,7 +16,7 @@ public class Test8 {
                 continue;
             }
             System.out.print(c1);
-        }
+            }
         System.out.println();
     }
 }
