@@ -24,8 +24,17 @@ public class Test1 {
         System.out.println(sb2.insert(4,55));
 
         StringBuilder sb10 = new StringBuilder("Hello World");
-        System.out.println(sb10.delete(3,6));
-        System.out.println(sb10.deleteCharAt(10));
+        //System.out.println(sb10.delete(3,6));
+
+        // System.out.println(sb10.deleteCharAt(6));
+        System.out.println(sb10.reverse());
+
+        StringBuilder sb12 = new StringBuilder("Vsem Privet");
+        sb12.replace(0,5,"Pete");
+        System.out.println(sb12);
+        System.out.println(sb12.capacity());
+        System.out.println(sb1.capacity());
+
 
 
 
