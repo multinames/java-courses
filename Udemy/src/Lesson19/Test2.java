@@ -1,5 +1,7 @@
 package Lesson19;
+
 // varargs
+
 public class Test2 {
     static void summa(String s, int ...a) {
         int summa =0;
