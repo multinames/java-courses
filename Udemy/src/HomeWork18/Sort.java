@@ -8,7 +8,7 @@ public class Sort {
                 if (array[j] > array[j+1]) {
                     int max = array[j];
                     array[j] = array[j+1]; //меняем местами
-                    array[j+1] = max;      //два сосдених элемента
+                    array[j+1] = max;      //два соседних элемента
                 }
             }
         }
