@@ -1,6 +1,6 @@
 package Lesson20;
 
-import java.util.ArrayList;
+
 import java.util.Arrays;
 
 public class Test8 {
@@ -11,7 +11,7 @@ public class Test8 {
         char [] array4 = {'p','r','i','v','i','v','k','a'};
 
 
-        /// System.out.println(Arrays.misma(array1, array2));
+      System.out.println(Arrays.compare(array2, array1));
     }
 
 }

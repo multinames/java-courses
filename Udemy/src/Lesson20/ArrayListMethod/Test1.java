@@ -25,8 +25,13 @@ public class Test1 {
         System.out.println(result);*/
         // System.out.println("all = " +al1);
 
-        List <String> subList = al1.subList(1,4);
+  /*      List <String> subList = al1.subList(1,4);
         System.out.println("sublist = " +subList);
+        subList.add("ten");
+        System.out.println("sublist = " +subList);
+        System.out.println("all = " +al1);
+*/
+  String [] array2 = al1.toArray(new String[5]);
 
     }
 }
