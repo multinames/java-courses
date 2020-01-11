@@ -1,4 +1,4 @@
-package Lessom16;
+package Lesson16;
 // строки
 public class Test8 {
     public static void main(String[] args) {

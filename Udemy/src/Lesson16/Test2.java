@@ -1,4 +1,4 @@
-package Lessom16;
+package Lesson16;
 
 // строки
 

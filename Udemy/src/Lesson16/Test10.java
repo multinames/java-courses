@@ -1,6 +1,6 @@
-package Lessom16;
+package Lesson16;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+// import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 
 public class Test10 {
     public static void main(String[] args) {

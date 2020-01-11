@@ -1,8 +1,6 @@
-package Lessom16;
+package Lesson16;
 
 // Строки
-
-import java.sql.SQLOutput;
 
 public class Test11 {
     public static void main(String[] args) {
