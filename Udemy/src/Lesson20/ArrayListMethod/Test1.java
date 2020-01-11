@@ -11,7 +11,7 @@ public class Test1 {
         al1.add("three");
         al1.add("four");
         al1.add("five");
-        System.out.println("all = " +al1);
+        // System.out.println("all = " +al1);
 
      /*   ArrayList <String> al2 = new ArrayList<>();
         al2.add("one");
@@ -32,6 +32,9 @@ public class Test1 {
         System.out.println("all = " +al1);
 */
   String [] array2 = al1.toArray(new String[5]);
+  for (String s:array2) {
+      System.out.println(s);
+  }
 
     }
 }
