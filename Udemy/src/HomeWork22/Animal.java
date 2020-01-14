@@ -24,8 +24,8 @@ class Pet extends Animal { // наследуем класс
     final int tail = 1;
     final int paw = 4;
 
-    Pet (int eyes){            //Констуктор
-        this.eyes =2 ;
+    Pet (){            //Констуктор
+        eyes =2 ;
         System.out.println("I am pet");
     }
 
@@ -37,5 +37,40 @@ class Pet extends Animal { // наследуем класс
         System.out.println("Pet jumps");
 
     }
+}
 
+class Dog extends Pet { // наследуем класс
+
+    Dog(String n) {
+        name = n;
+        System.out.println("I am dog and my name is: " +name);
+
+    }
+    void play (){
+        System.out.println("Dog Plays");
+    }
+
+}
+
+class Cat extends Pet { //наследуем класс
+
+    Cat(String n) {
+        this.name = n;
+        System.out.println("I am cat and my name is: " +name);
+
+    }
+
+    void sleep(){
+        System.out.println("Cat sleeps");
+    }
+
+}
+
+class TestAnimal{
+    public static void main(String[] args) {
+        // Dog dog1 = new Dog("Бобик");
+        Cat cat1 = new Cat("Маркиз");
+        //System.out.println("Всего лап :" +dog1.paw);
+         cat1.sleep();
+    }
 }

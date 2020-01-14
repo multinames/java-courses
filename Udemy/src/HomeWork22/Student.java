@@ -4,9 +4,9 @@ package HomeWork22;
 // Вывод данных о студенте через методд showInfo
 
 public class Student {
-    StringBuilder name;
-    int course;
-    double grade;
+    private StringBuilder name;
+    private int course;
+    private double grade;
 
     private void setName(StringBuilder s) {
         if (s.length() >3) {
@@ -14,13 +14,13 @@ public class Student {
     }
 
     private void setCourse (int i){
-        if (i < 4 && i> 1) {
+        if (i < 5 && i> 1) {
             course =i;
         }
     }
 
     private void setGrade (double i){
-        if (i < 10 && i> 1) {
+        if (i < 11 && i> 1) {
             grade =i;
         }
     }
@@ -36,7 +36,7 @@ public class Student {
 class TestStudent {
     public static void main(String[] args) {
         Student st1 = new Student();
-        st1.showInfo(new StringBuilder("Иван"), 2,5.6);
+        st1.showInfo(new StringBuilder("Иван"), 2,12);
 
     }
 
