@@ -8,37 +8,48 @@ public class Student {
     private int course;
     private double grade;
 
-    private void setName(StringBuilder s) {
+    public void setName(StringBuilder s) {
         if (s.length() >3) {
         name =s;}
     }
 
-    private void setCourse (int i){
+    public StringBuilder getName () {
+        return name;
+    }
+
+    public void setCourse (int i){
         if (i < 5 && i> 1) {
             course =i;
         }
     }
 
-    private void setGrade (double i){
+    public int getCourse (){
+        return course;
+    }
+
+    public void setGrade (double i){
         if (i < 11 && i> 1) {
             grade =i;
         }
     }
 
+    public double getGrade (){
+        return grade;
+    }
+
     public void showInfo(StringBuilder n, int i, double j) {
-        setName(n);
-        setCourse(i);
-        setGrade(j);
-        System.out.println("студент: " +name +", курс : " + course + ", оценка: " + grade);
+        System.out.println("студент: " +getName() +", курс : " + getCourse() + ", оценка: " + getGrade());
     }
 }
 
 class TestStudent {
     public static void main(String[] args) {
         Student st1 = new Student();
-        st1.showInfo(new StringBuilder("Иван"), 2,12);
+        st1.setName(new StringBuilder("Иван"));
+        st1.setCourse(2);
+        st1.setGrade(12);
+
+        st1.showInfo(st1.getName(),st1.getCourse(),st1.getGrade());
 
     }
-
-
 }
