@@ -12,6 +12,7 @@ public class Test5 {
     }
 }
 
+
 class Employee5 {
     double salary = 100;
     String name;
@@ -22,7 +23,8 @@ class Employee5 {
 }
 
 class  Teacher5 extends Employee5{
-    int kolichestvoUchenikov;
+    double salary = 200;
+
 
     void uchit(){System.out.println("Учить");}
 

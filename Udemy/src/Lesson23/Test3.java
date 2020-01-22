@@ -12,7 +12,8 @@ public class Test3 {
 }
 
 class Eda{}
-class   Frukti extends Eda{}
+
+class Frukti extends Eda{}
 
 class Employee23 {
     double salary = 100;
@@ -29,8 +30,8 @@ class Employee23 {
 }
 
 class  Teacher23 extends Employee23{
-    int kolichestvoUchenikov;
-
+    double salary = 200;
+@Override
     Frukti eat (){ System.out.println("Кушает учитель");
         Frukti f = new Frukti();
         return f;
