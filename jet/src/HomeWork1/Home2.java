@@ -4,9 +4,7 @@ public class Home2 {
 
     public static void main(String[] args) {
         int a=-10, b = 2, c = 0;
-
         System.out.println("Число "+a);
-
 
         if (a >= 0) {
             System.out.println(a+1);
