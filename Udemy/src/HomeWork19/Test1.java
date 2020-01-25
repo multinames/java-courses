@@ -1,4 +1,4 @@
-// package HomeWork19;
+package HomeWork19;// package HomeWork19;
 
 public class Test1 {
 
