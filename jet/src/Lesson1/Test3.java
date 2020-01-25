@@ -1,3 +1,5 @@
+package Lesson1;
+
 public class Test3 {
 // ручное приведение
     public static void main(String[] args) {
