@@ -1,39 +1,77 @@
 package HomeWork1;
-// case
+
+import java.io.*;
+
+// if else part 4
+
 public class Home2_3 {
     public static void main(String[] args) {
+        HomeWork23 min = new HomeWork23();
+        min.abc(1,2,3);
 
-        PhoneTalk t1= new PhoneTalk();
-        System.out.println(t1.callCity(495) + " руб.");
-        System.out.println(t1.callCity(194) + " руб.");
-        System.out.println(t1.callCity(491) + " руб.");
-        System.out.println(t1.callCity(800) + " руб.");
+        HomeWork23 type = new HomeWork23();
+        System.out.println("-------------------------------------------");
+
+        type.abc(-3);
+        type.abc(2);
+        type.abc(0);
+
+        System.out.println("-------------------------------------------");
+
+        type.infoNumber(1024);
 
     }
 }
 
-class PhoneTalk{
-    public double callCity(int code) {
-        double result =0;
-        double time = 10.0;
-        switch (code) {
-            case 495:
-                result = time*4.15;
-                System.out.print("Москва "+ time + " минут: ");
-                break;
-            case 194:
-                result = time*1.98;
-                System.out.print("Ростов "+ time + " минут: ");
-                break;
-            case 491:
-                result = time*2.69;
-                System.out.print("Краснодар "+ time + " минут: ");
-                break;
-            case 800:
-                result = time*5.0;
-                System.out.print("Киров "+ time + " минут: ");
-                break;
-        }
-        return result;
+class HomeWork23 {
+    public void abc (int a, int b, int c) {
+        System.out.print("Даны три числа "+a + " "+b+ " "+c);
+        if (a <b & a<c) {
+            System.out.println(", наименьшее из них - "+a); }
     }
+
+    public void abc(int a) {
+        if (a <0 && (a%2)==0 ) {
+            System.out.println(a +" отрицательное, четное число");
+        }
+        else if (a <0 && (a%2)!=0 ){System.out.println(a +" отрицательное, не четное число");}
+
+        if (a >0 & (a%2)==0 ) {
+            System.out.println(a +" положительное, четное число");
+        }
+        else if ((a >0 && (a%2)!=0 )){System.out.println(a +" положительное, не четное число");}
+
+        if (a==0) {
+            System.out.println(a+ " нулевое число ");
+        }
+    }
+
+    public void infoNumber(int a){
+        if ((String.valueOf(a).length() == 2) & ((a%2)==0)){
+            System.out.println(a + " четное, двухзначеное число");
+         }
+        else if ((String.valueOf(a).length() == 3) & ((a%2)==0)){
+            System.out.println(a + " четное, трехзначное число");
+        }
+        else if ((String.valueOf(a).length() == 1) & a!=0 & ((a%2)==0)){
+            System.out.println(a + " четное число");
+        }
+
+        if ((String.valueOf(a).length() == 2) & ((a%2)!=0)){
+            System.out.println(a + " не четное, двухзначеное число");
+        }
+        else if ((String.valueOf(a).length() == 3) & ((a%2)!=0)){
+            System.out.println(a + " не четное, трехзначное число");
+        }
+        else if ((String.valueOf(a).length() == 1) & a!=0 & ((a%2)!=0)){
+            System.out.println(a + " не четное число");
+        }
+
+        else {
+            System.out.println("Число не входит в заданный диапазон (1-999)!!");
+        }
+
+
+    }
+
 }
