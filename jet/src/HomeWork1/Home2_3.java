@@ -34,12 +34,12 @@ class HomeWork23 {
         if (a <0 && (a%2)==0 ) {
             System.out.println(a +" отрицательное, четное число");
         }
-        else if (a <0 && (a%2)!=0 ){System.out.println(a +" отрицательное, не четное число");}
+        else if (a <0 && (a%2)!=0 ){System.out.println(a +" отрицательное, нечетное число");}
 
         if (a >0 & (a%2)==0 ) {
             System.out.println(a +" положительное, четное число");
         }
-        else if ((a >0 && (a%2)!=0 )){System.out.println(a +" положительное, не четное число");}
+        else if ((a >0 && (a%2)!=0 )){System.out.println(a +" положительное, нечетное число");}
 
         if (a==0) {
             System.out.println(a+ " нулевое число ");
@@ -58,13 +58,13 @@ class HomeWork23 {
         }
 
         if ((String.valueOf(a).length() == 2) & ((a%2)!=0)){
-            System.out.println(a + " не четное, двухзначеное число");
+            System.out.println(a + " нечетное, двухзначеное число");
         }
         else if ((String.valueOf(a).length() == 3) & ((a%2)!=0)){
-            System.out.println(a + " не четное, трехзначное число");
+            System.out.println(a + " нечетное, трехзначное число");
         }
         else if ((String.valueOf(a).length() == 1) & a!=0 & ((a%2)!=0)){
-            System.out.println(a + " не четное число");
+            System.out.println(a + " нечетное число");
         }
 
         else {
