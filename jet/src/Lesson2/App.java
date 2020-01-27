@@ -1,13 +1,14 @@
 package Lesson2;
 
 import Lesson2.log.Calculator;
-import Lesson2.log.DBLogger;
+import Lesson2.log.Logger;
+import Lesson2.log.LoggerFactory;
 
 public class App {
     public static void main(String[] args)  {
 
-        DBLogger dbLogger = new DBLogger();
-        Calculator cacl = new Calculator(dbLogger);
+        Logger logger = LoggerFactory.getLogger();
+        Calculator cacl = new Calculator(logger);
 
       /*  Employee emp = new Employee();
         emp.say();*/

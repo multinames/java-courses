@@ -4,9 +4,9 @@ import java.net.CacheRequest;
 
 public class Calculator {
 
-    private DBLogger logger;
+    private Logger logger;
 
-    public Calculator(DBLogger logger){
+    public Calculator(Logger logger){
         this.logger=logger;
     }
 
