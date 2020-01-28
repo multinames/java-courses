@@ -7,15 +7,25 @@ public class MainApp {
         printer.print(1);
         printer.printerPlus(1);*/
 
-        printer.<String>print("Hello");
+       /* printer.<String>print("Hello");*/
 
         People<String> people = new People<String>();
-        people.item = "Hello, I'm human";
-        System.out.println(people);
+        /*people.item = "Hello, I'm human";
+        System.out.println(people);*/
 
         People<Integer> people1 = new People<>();
-        people1.item = 10;
-        System.out.println(people1);
+        /*people1.item = 10;
+        System.out.println(people1);*/
+
+        Box box = new Box(10);
+        box.add(printer);
+        box.add(people);
+        box.add(people1);
+
+        for (int i=0; i<box.count; i++) {
+            Printer printer1 = (Printer) box.get(i);
+            printer1.print("Hello!!!");
+        }
     }
 }
 
