@@ -27,8 +27,8 @@ public class Reader {
 
      public void takeBook(String fullName, Book...bb){
         System.out.print(fullName +" взял книги - ");
-        /*for (int i=0;i<books.length;i++) {
-            System.out.print(books[i]); }*/
+        for (int i=0;i<bb.length;i++) {
+            System.out.print(bb[i].authorBook+ ". " + bb[i].nameBook); }
     }
 
 }
@@ -50,7 +50,7 @@ class TestReader{
 
            System.out.println("");
 
-           r1.takeBook("Иванов В.В", book1.authorBook, book1.nameBook);
+           r1.takeBook("Иванов В.В", book1);
 
 
 
