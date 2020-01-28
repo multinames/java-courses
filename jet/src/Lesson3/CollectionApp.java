@@ -10,10 +10,13 @@ public class CollectionApp {
         list.add(new Animal("Dog"));
         list.add(new Animal("Dog"));
 
+        list.forEach(elem-> System.out.println(elem));
+            
+       /* }
         for (Animal value:list){
             System.out.println(value);
         }
-
+*/
 
 /*        ArrayList<Integer> list = new ArrayList<>(); //инициализацяи коллекции
         list.add(1);
