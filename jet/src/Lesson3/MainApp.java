@@ -17,15 +17,19 @@ public class MainApp {
         /*people1.item = 10;
         System.out.println(people1);*/
 
-        Box box = new Box(10);
-        box.add(printer);
-        box.add(people);
-        box.add(people1);
+        Animal animal = new Animal("Dog");
+        Animal animal1 = new Animal("Dog");
+        System.out.println(animal.equals(animal1));
 
-        for (int i=0; i<box.count; i++) {
+        Box box = new Box(10);
+/*        box.add(printer);
+        box.add(people);
+        box.add(people1);*/
+
+/*        for (int i=0; i<box.count; i++) {
             Printer printer1 = (Printer) box.get(i);
             printer1.print("Hello!!!");
-        }
+        }*/
     }
 }
 
@@ -50,5 +54,24 @@ class People<T>{
     @Override
     public String toString() {
         return item.toString();
+    }
+}
+
+class Animal {
+    public String name;
+
+    public Animal(String name) {
+        this.name=name;
+    }
+
+    public boolean equals (Object obj) {
+        if (obj instanceof  Animal) {
+            return this.name == ((Animal) obj).name;
+        }
+        return false;
+    }
+
+    public String toString () {
+        return name;
     }
 }

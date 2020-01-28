@@ -16,6 +16,8 @@ public class Box {
 
         }else {
             object = new Object[capacity];
+            size = capacity;
+
         }
     }
 
