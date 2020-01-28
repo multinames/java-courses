@@ -28,7 +28,7 @@ public class Reader {
      public void takeBook(String fullName, Book...bb){
         System.out.print(fullName +" взял книги - ");
         for (int i=0;i<bb.length;i++) {
-            System.out.print(bb[i].authorBook+ ". " + bb[i].nameBook); }
+            System.out.print(bb[i].authorBook+ ". " + bb[i].nameBook+"; "); }
     }
 
 }
@@ -47,10 +47,14 @@ class TestReader{
            book1.authorBook="Джанни Родари";
            book1.nameBook = "Приключения Буратино";
 
+           Book book2 = new Book();
+           book2.authorBook = "Лев Толстой";
+           book2.nameBook ="Война и мир";
+
 
            System.out.println("");
 
-           r1.takeBook("Иванов В.В", book1);
+           r1.takeBook("Иванов В.В", book1, book2);
 
 
 
