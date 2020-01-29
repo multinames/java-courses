@@ -33,7 +33,7 @@ public class Car {
     public String toString() {
         return "Car{" +
                 "mark='" + mark + '\'' +
-                ", classs='" + carClass + '\'' +
+                ", carClass='" + carClass + '\'' +
                 ", weight=" + weight +
                 ", driver=" + driver +
                 ", engine=" + engine +
