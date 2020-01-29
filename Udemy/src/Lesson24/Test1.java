@@ -7,6 +7,7 @@ public class Test1 {
 
         Figura f1 = new Kvadrat();
         System.out.println(f1.kolichestvoStoron);
+        f1.ploshad();
 
     }
 }
@@ -32,7 +33,7 @@ class Kvadrat extends Figura{
         System.out.println("Периметр квадрата = "+4*storona1);
     }
     public void ploshad(){
-        System.out.println("Площадь квадрата ="+storona1*storona1);
+        System.out.println("Площадь квадрата = "+storona1*storona1);
 
     }
 }
@@ -46,7 +47,7 @@ class Pryamougolnik extends Figura{
         System.out.println("Периметр прямоугольника = "+2*(storona1+storona2));
     }
     public void ploshad() {
-        System.out.println("Площадь квадрата =" + storona1 * storona2);
+        System.out.println("Площадь квадрата = " + storona1 * storona2);
     }
 }
 
@@ -58,12 +59,12 @@ class Okruzhnost extends Figura {
         System.out.println("Периметр прямоугольника = "+2*3.14*radius);
     }
     public void ploshad() {
-        System.out.println("Площадь квадрата =" +3.14*radius*radius);
+        System.out.println("Площадь квадрата = " +3.14*radius*radius);
     }
 }
 
 abstract class CheryrehUgolnik extends Figura{
     void def (){
-        System.out.println("Это четрыхугольник");
+        System.out.println("Это четырехугольник");
     }
         }
