@@ -2,11 +2,12 @@ package Lesson3;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 public class CollectionApp {
     public static void main(String[] args) {
 
-        LinkedList<Animal> list = new LinkedList<>();
+        List<Animal> list = new LinkedList<>();
         list.add(new Animal("Dog"));
         list.add(new Animal("Dog"));
 

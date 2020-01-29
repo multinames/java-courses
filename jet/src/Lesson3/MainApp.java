@@ -63,7 +63,7 @@ class Animal {
     public Animal(String name) {
         this.name=name;
     }
-
+@Override
     public boolean equals (Object obj) {
         if (obj instanceof  Animal) {
             return this.name == ((Animal) obj).name;
