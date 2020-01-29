@@ -1,12 +1,9 @@
 package HomeWork2;
 
 import HomeWork2.details_car.Engine;
-import HomeWork2.details_car.Engine.*;
 import HomeWork2.professions_car.Driver;
-import HomeWork2.professions_car.Driver.*;
 
 public class Car {
-
 
     String mark;
     String carClass;
@@ -45,7 +42,11 @@ public class Car {
 }
 
 class Lorry extends Car {
-    int kuzovWeight;
+    int cargoWeight;
+}
+
+class SportCar {
+    double maxSpeed;
 }
 
 class TestCar {
