@@ -1,15 +1,12 @@
 package HomeWork2;
 
 import HomeWork2.details_car.Engine;
-import HomeWork2.details_car.Engine.*;
 import HomeWork2.professions_car.Driver;
-import HomeWork2.professions_car.Driver.*;
 
 public class Car {
 
-
     String mark;
-    String classs;
+    String carClass;
     int weight;
 
     Driver driver;
@@ -29,14 +26,14 @@ public class Car {
         System.out.println("Повернуть направо");
     }
     public void printinfo(){
-        System.out.println(mark+classs+weight+driver+engine);
+        System.out.println(mark+carClass+weight+driver+engine);
     }
 
     @Override
     public String toString() {
         return "Car{" +
                 "mark='" + mark + '\'' +
-                ", classs='" + classs + '\'' +
+                ", carClass='" + carClass + '\'' +
                 ", weight=" + weight +
                 ", driver=" + driver +
                 ", engine=" + engine +
@@ -45,7 +42,11 @@ public class Car {
 }
 
 class Lorry extends Car {
-    int kuzovWeight;
+    int cargoWeight;
+}
+
+class SportCar {
+    double maxSpeed;
 }
 
 class TestCar {

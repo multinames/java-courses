@@ -36,7 +36,7 @@ public class Collection4{
 
            System.out.println(map.get(h2));*/
 
-          /*  Map<Integer, String> map = new HashMap<>();
+       /*     Map<Integer, String> map = new HashMap<>();
 
             map.put (1,"Artem");
             map.put (2,"Artem");
@@ -57,8 +57,8 @@ public class Collection4{
 
             for (Map.Entry<Integer, String> value: map.entrySet()) {
                 System.out.println(value);
-            }*/
-
+            }
+*/
 
             // Set<String>set = new LinkedHashSet<>();
             // Set<String>set = new HashSet<>();
@@ -143,8 +143,8 @@ final class Human implements Comparable<Human> {
         return this.name.compareTo(o.name);
     }
 
-    @Override
+/*    @Override
     public String toString() {
         return this.name;
-    }
+    }*/
 }
