@@ -12,13 +12,21 @@ public class Car {
     Driver driver;
     Engine engine;
 
-  public void start(){
+/*    public Car(){  }*/
+
+/*    public Car(Engine engine, Driver driver){
+        this.engine = engine;
+        this.driver = driver;
+    }*/
+
+
+    public void start(){
       System.out.println("Поехали");
   }
-  public void stop(){
+    public void stop(){
       System.out.println("Стоп");
   }
-  public void turnLeft(){
+    public void turnLeft(){
       System.out.println("Повернуть налево");
   }
 
@@ -31,14 +39,21 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car{" +
+        return
                 "mark='" + mark + '\'' +
                 ", carClass='" + carClass + '\'' +
                 ", weight=" + weight +
                 ", driver=" + driver +
-                ", engine=" + engine +
-                '}';
+                ", engine=" + engine
+                ;
     }
+
+
+    public void setEngine(Engine engine) {
+        this.engine = engine;
+    }
+
+
 }
 
 class Lorry extends Car {
@@ -50,9 +65,20 @@ class SportCar {
 }
 
 class TestCar {
+
     public static void main(String[] args) {
+
+        Engine eng = new Engine();
+        eng.manufacture="Volvo";
+        eng.power = 250;
+
         Car car = new Car();
+
+        car.setEngine(eng);
         car.mark="Nissan";
-        car.printinfo();
+        car.carClass = "C";
+        car.weight = 1024;
+
+        System.out.println(car.toString());
     }
 }
