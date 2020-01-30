@@ -69,12 +69,12 @@ class TestCar {
     public static void main(String[] args) {
 
         Engine eng = new Engine();
-        eng.manufacture="Volvo";
-        eng.power = 250;
-
         Car car = new Car();
 
+        eng.manufacture="Volvo";
+        eng.power = 250;
         car.setEngine(eng);
+
         car.mark="Nissan";
         car.carClass = "C";
         car.weight = 1024;
