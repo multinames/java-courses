@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7d1055e4-2453-493e-8fff-2a16d885ab2b" name="Default Changelist" comment="Exceptions1.java">
+      <change beforePath="$PROJECT_DIR$/Life/src/com/company/Lesson8/Flower.java" beforeDir="false" afterPath="$PROJECT_DIR$/Life/src/com/company/Lesson8/Flower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Life/src/com/company/Viber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Life/src/com/company/Viber.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SORT_ALPHABETICALLY" value="true" />
+  </component>
+  <component name="ProjectId" id="1XGPtDqX9V7WVKL7aX3tnenOeiU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Life" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Lesson5" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestFlower">
+    <configuration name="Exceptions1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exceptions1" />
+      <module name="alishev" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson29.Test1" />
+      <module name="rabbit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson29.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson5.TestCalculator" />
+      <module name="jet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestErrorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson29.TestErrorExample" />
+      <module name="rabbit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson29.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFlower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lesson8.TestFlower" />
+      <module name="Life" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestFlower" />
+        <item itemvalue="Application.Exceptions1" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.TestErrorExample" />
+        <item itemvalue="Application.TestCalculator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d1055e4-2453-493e-8fff-2a16d885ab2b" name="Default Changelist" comment="" />
+      <created>1580669670424</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580669670424</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Jet Lesson5">
+      <created>1580670534761</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580670534761</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Exceptions1.java">
+      <created>1580677415090</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580677415090</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Exceptions1.java">
+      <created>1580677425437</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580677425437</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Jet Lesson5" />
+    <MESSAGE value="Exceptions1.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exceptions1.java" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="656" y="344" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580675749120">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="656" y="344" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1580675749120" />
+    <state x="613" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580670413079">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="613" y="288" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580670413079" />
+    <state x="537" y="135" key="CommitChangelistDialog2" timestamp="1580677460386">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="537" y="135" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1580677460386" />
+    <state x="283" y="142" width="1200" height="800" key="DiffContextDialog" timestamp="1580674335575">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="283" y="142" width="1200" height="800" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580674335575" />
+    <state x="663" y="250" key="FileChooserDialogImpl" timestamp="1580676938146">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="663" y="250" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1580676938146" />
+    <state width="1340" height="251" key="GridCell.Tab.0.bottom" timestamp="1580679169643">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="251" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1580679169643" />
+    <state width="1340" height="251" key="GridCell.Tab.0.center" timestamp="1580679169643">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="251" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1580679169643" />
+    <state width="1340" height="251" key="GridCell.Tab.0.left" timestamp="1580679169643">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="251" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1580679169643" />
+    <state width="1340" height="251" key="GridCell.Tab.0.right" timestamp="1580679169643">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="251" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1580679169643" />
+    <state x="548" y="239" key="NewModule_or_Project.wizard" timestamp="1580676943794">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="548" y="239" key="NewModule_or_Project.wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1580676943794" />
+    <state x="363" y="115" key="SettingsEditor" timestamp="1580676945901">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="363" y="115" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1580676945901" />
+    <state x="475" y="274" key="Vcs.Push.Dialog.v2" timestamp="1580677470934">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="475" y="274" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1580677470934" />
+    <state x="737" y="275" key="VcsDiffUtil.ChangesDialog" timestamp="1580674190573">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="737" y="275" key="VcsDiffUtil.ChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1580674190573" />
+    <state x="692" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580674123907">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="692" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1580674123907" />
+  </component>
+</project>

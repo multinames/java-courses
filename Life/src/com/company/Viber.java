@@ -1,6 +1,10 @@
 package com.company;
 
-public interface Viberpublic class Viber implements Messenger {
+interface Viber1{
+
+}
+
+public class Viber implements Messenger {
 
     public void sendMessage() {
 
@@ -10,5 +14,4 @@ public interface Viberpublic class Viber implements Messenger {
     public void getMessage() {
         System.out.println("Читаем сообщение в Viber!");
     }
-} {
 }
