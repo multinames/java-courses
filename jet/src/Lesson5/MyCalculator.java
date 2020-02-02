@@ -19,15 +19,14 @@ public class MyCalculator implements Calculatable{
     }
 
     @Override
-    public int div(int value1, int value2) throws DivideByZerroExeption {
-        return 0;
-    }
-
-
-    public int dev (int value1, int value2) throws DivideByZerroExeption{
-       // if (value2 ==0)
+    public int div(int value1, int value2) throws DivideByZeroException {
+        if (value2 == 0){
+            throw new DivideByZeroException("value2 == 0");
+        }
         return value1/value2;
     }
+
+
 }
 
 class TestCalculator {
