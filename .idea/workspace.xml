@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fdfc0a7-dea7-44d7-ae3c-1fb44732afd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jet/src/Lesson6/CloseApp.java" afterDir="false" />
+    <list default="true" id="9fdfc0a7-dea7-44d7-ae3c-1fb44732afd8" name="Default Changelist" comment="Lesson 6">
+      <change afterPath="$PROJECT_DIR$/jet/src/Lesson6/GameOver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet/src/Lesson6/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/player" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jet/src/Lesson6/FileReader6.java" beforeDir="false" afterPath="$PROJECT_DIR$/jet/src/Lesson6/FileReader6.java" afterDir="false" />
     </list>
@@ -55,14 +56,7 @@
       <recent name="C:\Git\java-courses\out\production" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileReader6">
-    <configuration name="FileReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileReader" />
-      <module name="jet" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.GameOver">
     <configuration name="FileReader2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FileReader2" />
       <module name="jet" />
@@ -72,6 +66,19 @@
     </configuration>
     <configuration name="FileReader6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson6.FileReader6" />
+      <module name="jet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameOver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson6.GameOver" />
       <module name="jet" />
       <extension name="coverage">
         <pattern>
@@ -158,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GameOver" />
         <item itemvalue="Application.FileReader6" />
         <item itemvalue="Application.TestGoods" />
         <item itemvalue="Application.TestCalculator" />
         <item itemvalue="Application.FileReader2" />
-        <item itemvalue="Application.FileReader" />
       </list>
     </recent_temporary>
   </component>
@@ -176,13 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579781484423</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Jet Lesson1">
-      <created>1579940550220</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1579940550220</updated>
     </task>
     <task id="LOCAL-00009" summary="Jet Lesson1">
       <created>1579942837518</created>
@@ -520,11 +520,17 @@
       <option name="project" value="LOCAL" />
       <updated>1580746951971</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Lesson 6">
+      <created>1580750850388</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1580750850388</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HomeWork 2 fix" />
     <MESSAGE value="HomeWork 4 for, while" />
     <MESSAGE value="HomeWork 5 массивы" />
     <MESSAGE value="Lesson 2 obj!" />
@@ -549,7 +555,8 @@
     <MESSAGE value="Lesson23 abstract class &amp; method" />
     <MESSAGE value="Lesson6 Jet" />
     <MESSAGE value="Lesson 8 inet mag" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 8 inet mag" />
+    <MESSAGE value="Lesson 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 6" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="68" key="#Project_Structure" timestamp="1579783788641">
@@ -564,30 +571,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="506" y="84" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580666803878" />
-    <state x="424" y="4" key="CommitChangelistDialog2" timestamp="1580746950678">
+    <state x="424" y="4" key="CommitChangelistDialog2" timestamp="1580750856055">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="4" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580746950678" />
+    <state x="424" y="4" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580750856055" />
     <state x="549" y="164" key="FileChooserDialogImpl" timestamp="1580744571782">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="164" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580744571782" />
-    <state width="1454" height="131" key="GridCell.Tab.0.bottom" timestamp="1580750736086">
+    <state width="1454" height="131" key="GridCell.Tab.0.bottom" timestamp="1580752483351">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1454" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580750736086" />
-    <state width="1454" height="131" key="GridCell.Tab.0.center" timestamp="1580750736086">
+    <state width="1454" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580752483351" />
+    <state width="1454" height="131" key="GridCell.Tab.0.center" timestamp="1580752483351">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1454" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580750736086" />
-    <state width="1454" height="131" key="GridCell.Tab.0.left" timestamp="1580750736086">
+    <state width="1454" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580752483351" />
+    <state width="1454" height="131" key="GridCell.Tab.0.left" timestamp="1580752483351">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1454" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580750736086" />
-    <state width="1454" height="131" key="GridCell.Tab.0.right" timestamp="1580750736086">
+    <state width="1454" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580752483351" />
+    <state width="1454" height="131" key="GridCell.Tab.0.right" timestamp="1580752483351">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1454" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580750736086" />
+    <state width="1454" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580752483351" />
     <state width="1454" height="236" key="GridCell.Tab.1.bottom" timestamp="1580240470387">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

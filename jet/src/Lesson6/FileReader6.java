@@ -64,7 +64,7 @@ public class FileReader6 {
         OutputStream out =null;
 
         try {
-            out = new FileOutputStream("data");
+            out = new FileOutputStream("data",true);
             out.write(arr);
         } catch (IOException ex) {
             System.out.println(ex.getMessage());
