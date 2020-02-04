@@ -19,32 +19,41 @@ public class Goods {
         this.price= price;
         this.rating = rating;
     }
+
+    @Override
+    public String toString() {
+        return "Goods{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", rating=" + rating +
+                '}';
+    }
 }
 
 class Category {
     String name;
-    Goods [] goods;
+    Goods[] goods;
 
     // Конструктор Категорий
-    public Category(String name, String[]...goods){
-
+    public Category(String name, Goods...goods) {
+        this.name = name;
+        this.goods = goods;
     }
 }
 
 class Basket {
-    public Basket(String[]... productInCart) {
-        // System.out.println(Arrays.deepToString(productInCart));
+    Goods[] goods;
+    public Basket(Goods...goods) {
+        this.goods = goods;
+    }
+
+    @Override
+    public String toString() {
+        return "Basket{" +
+                "goods=" + Arrays.toString(goods) +
+                '}';
     }
 }
-
-/*`class Basket {
-    public void shoppingCart(String[]...productInCart){
-        System.out.println(Arrays.deepToString(productInCart));
-    }`
- }*/
-
-
-
 
 class User {
     String login;
@@ -58,31 +67,47 @@ class User {
         this.basket=basket;
 
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "login='" + login + '\'' +
+                ", password='" + password + '\'' +
+                ", basket=" + basket +
+                '}';
+    }
 }
 
 class TestGoods{
     public static void main(String[] args) {
 
-        // Создать несколько объектов класса Категория
-        Category ct1 = new Category("Сумки", new String[] {"сумка красная", "сумка синяя", "сумка черная"});
-        Category ct2 = new Category("Футболки", new String[] {"футболка мужская", "футболка женская", "футболка деская"});
-        Category ct3 = new Category("Телефоны", new String[] {"смартфоны", "кнопчатые", "настольные"});
-        // Category ct4 = new Category("Нечто",new Str);
 
         // создание товаров (странно - почему в задани нет привязки к категории???
-        Goods product1 = new Goods("Сумка",20.0,5);
-        Goods product2 = new Goods("Туфли",210.0,4);
+        Goods product1 = new Goods("Кефир",44.0,5);
+        Goods product2 = new Goods("Молоко",49.0,4);
+
+        Goods product3 = new Goods("Батон",33.0,3);
+        Goods product4 = new Goods("Хлеб",41.0,4);
+
+        Goods product5 = new Goods("Фарш говяжий",119.0,3);
+        Goods product6 = new Goods("Печнь цеплят",99.0,4);
+
+        // Создать несколько объектов класса Категория
+        Category cat1 = new Category("Молочная продукция",product1, product2);
+        Category cat2 = new Category("Хлебо-булочные изделия",product1, product2);
+        Category cat3 = new Category("Мясная продукция",product1, product2);
+
+
 
         // создание корзины
-        Basket basket1 = new Basket(new String[]{product1.name, product2.name});
-
-        // Помещаем товары в корзину
-//        basket1.shoppingCart(new String[]{product1.name, product2.name});
+        Basket basket1 = new Basket(product1, product5);
 
 
         // Создать объект класса User
         User user1 = new User("login123", "password123", basket1);
-        System.out.println(user1.basket);
+        System.out.println(user1);
+
+
 
 
     }
