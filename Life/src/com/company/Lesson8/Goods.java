@@ -32,10 +32,19 @@ class Category {
 }
 
 class Basket {
+    public Basket(String[]... productInCart) {
+        // System.out.println(Arrays.deepToString(productInCart));
+    }
+}
+
+/*`class Basket {
     public void shoppingCart(String[]...productInCart){
         System.out.println(Arrays.deepToString(productInCart));
-    }
- }
+    }`
+ }*/
+
+
+
 
 class User {
     String login;
@@ -58,21 +67,22 @@ class TestGoods{
         Category ct1 = new Category("Сумки", new String[] {"сумка красная", "сумка синяя", "сумка черная"});
         Category ct2 = new Category("Футболки", new String[] {"футболка мужская", "футболка женская", "футболка деская"});
         Category ct3 = new Category("Телефоны", new String[] {"смартфоны", "кнопчатые", "настольные"});
+        // Category ct4 = new Category("Нечто",new Str);
 
-        // создание товаров (странно - почему в задани нет привязки к категории??? )
+        // создание товаров (странно - почему в задани нет привязки к категории???
         Goods product1 = new Goods("Сумка",20.0,5);
         Goods product2 = new Goods("Туфли",210.0,4);
 
         // создание корзины
-        Basket basket1 = new Basket();
+        Basket basket1 = new Basket(new String[]{product1.name, product2.name});
 
         // Помещаем товары в корзину
-        basket1.shoppingCart(new String[]{product1.name, product2.name});
+//        basket1.shoppingCart(new String[]{product1.name, product2.name});
 
 
         // Создать объект класса User
         User user1 = new User("login123", "password123", basket1);
-        System.out.println(user1.basket.toString());
+        System.out.println(user1.basket);
 
 
     }
