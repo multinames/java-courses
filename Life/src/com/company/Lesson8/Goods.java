@@ -32,10 +32,6 @@ class Category {
 }
 
 class Basket {
-   // String[] productInCart;
-
-   //  public Basket( Goods productInCart){};
-
     public void shoppingCart(String[]...productInCart){
         System.out.println(Arrays.deepToString(productInCart));
     }
@@ -75,9 +71,8 @@ class TestGoods{
 
 
         // Создать объект класса User
-
-        User user1 = new User("login123", "password123", basket1 );
-        System.out.println(user1.basket);
+        User user1 = new User("login123", "password123", basket1);
+        System.out.println(user1.basket.toString());
 
 
     }
