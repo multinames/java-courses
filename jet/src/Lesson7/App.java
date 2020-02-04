@@ -1,5 +1,9 @@
 package Lesson7;
 
+import Lesson6.JsonParser;
+import Lesson6.People;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 import java.io.*;
 import java.util.Scanner;
 
@@ -7,7 +11,21 @@ public class App {
     public static void main(String[] args) {
     //   writeToFile();
       ///  readAllFromFile();
-        readPage("lor.txt");
+       // readPage("lor.txt");
+        JsonParser.readJson("people.json");
+
+    }
+
+    private static void readJson(String s) {
+        try(InputStream in = new FileInputStream(s)){
+            ObjectMapper objectMapper = new ObjectMapper();
+            People people = objectMapper.<People>readValue(in, People.class);
+            System.out.println(people);
+        }catch (IOException ex) {
+            System.out.println(ex.getMessage());
+        }
+        /*ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper.readValue();*/
     }
 
     private static void readPage(String fileName) {
