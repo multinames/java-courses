@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fdfc0a7-dea7-44d7-ae3c-1fb44732afd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jackson_core_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jet/src/Lesson6/JsonParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jet/src/Lesson6/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jet/src/Lesson6/People.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Life/src/com/company/Lesson8/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Life/src/com/company/Lesson8/Goods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jet/jet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jet/jet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jet/src/Lesson7/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/jet/src/Lesson7/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,27 +186,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579781484423</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Jet Lesson1 Object">
-      <created>1579950792069</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1579950792069</updated>
-    </task>
-    <task id="LOCAL-00016" summary="move files">
-      <created>1579950902713</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1579950902713</updated>
-    </task>
-    <task id="LOCAL-00017" summary="move files">
-      <created>1579970855964</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1579970855964</updated>
     </task>
     <task id="LOCAL-00018" summary="HomeWork 1">
       <created>1579970902620</created>
@@ -537,13 +509,31 @@
       <option name="project" value="LOCAL" />
       <updated>1580838081685</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Homework Goods.java">
+      <created>1580849675910</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1580849675911</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Lesson 6 Json parser">
+      <created>1580849720893</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1580849720893</updated>
+    </task>
+    <task id="LOCAL-00066" summary="gitignore">
+      <created>1580849848217</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1580849848217</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Homework 2 class Phone" />
-    <MESSAGE value="Homework 2 class Student &amp; Aspirant" />
-    <MESSAGE value="Homework 2 class Reader" />
     <MESSAGE value="Lesson 3 Generic" />
     <MESSAGE value="HomeWork 2 class Book" />
     <MESSAGE value="Lesson 3 Collection" />
@@ -566,7 +556,10 @@
     <MESSAGE value="HomeWork 8 Goods.java fix" />
     <MESSAGE value="HomeWork 8 Animal.java" />
     <MESSAGE value="Lesson 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 7" />
+    <MESSAGE value="Homework Goods.java" />
+    <MESSAGE value="Lesson 6 Json parser" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="68" key="#Code_Folding" timestamp="1580829296461">
@@ -585,30 +578,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="506" y="84" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580849510174" />
-    <state x="424" y="4" key="CommitChangelistDialog2" timestamp="1580849674388">
+    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2" timestamp="1580849880547">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="4" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580849674388" />
+    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580849880547" />
     <state x="549" y="164" key="FileChooserDialogImpl" timestamp="1580839060118">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="164" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580839060118" />
-    <state width="727" height="131" key="GridCell.Tab.0.bottom" timestamp="1580849627144">
+    <state width="727" height="131" key="GridCell.Tab.0.bottom" timestamp="1580849891231">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580849627144" />
-    <state width="727" height="131" key="GridCell.Tab.0.center" timestamp="1580849627143">
+    <state width="727" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580849891231" />
+    <state width="727" height="131" key="GridCell.Tab.0.center" timestamp="1580849891231">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580849627143" />
-    <state width="727" height="131" key="GridCell.Tab.0.left" timestamp="1580849627143">
+    <state width="727" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580849891231" />
+    <state width="727" height="131" key="GridCell.Tab.0.left" timestamp="1580849891230">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580849627143" />
-    <state width="727" height="131" key="GridCell.Tab.0.right" timestamp="1580849627144">
+    <state width="727" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580849891230" />
+    <state width="727" height="131" key="GridCell.Tab.0.right" timestamp="1580849891231">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580849627144" />
+    <state width="727" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580849891231" />
     <state width="727" height="236" key="GridCell.Tab.1.bottom" timestamp="1580835590841">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -637,14 +630,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580838135856" />
-    <state x="361" y="142" key="Vcs.Push.Dialog.v2" timestamp="1580829921785">
+    <state x="361" y="142" key="Vcs.Push.Dialog.v2" timestamp="1580849885411">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="142" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1580829921785" />
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1580847367184">
+    <state x="361" y="142" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1580849885411" />
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1580849908154">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580847367184" />
+    <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580849908154" />
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580833798612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
