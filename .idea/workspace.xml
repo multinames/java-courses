@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fdfc0a7-dea7-44d7-ae3c-1fb44732afd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_197.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson81/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson81/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson81/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson81/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson81/Lesson81.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson81/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jet/src/jdbc/jdbc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jet/src/jdbc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jet/src/jdbc/src/main/java/app/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Life/src/com/company/Lesson8/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Life/src/com/company/Lesson8/Goods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jet/src/Lesson8/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/jet/src/Lesson8/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jet/src/Lesson8/JsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/jet/src/Lesson8/JsonParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jet/src/Lesson8/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/jet/src/Lesson8/People.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,20 +186,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579781484423</updated>
-    </task>
-    <task id="LOCAL-00027" summary="HomeWork 2 fix">
-      <created>1580067549668</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1580067549668</updated>
-    </task>
-    <task id="LOCAL-00028" summary="HomeWork 4 for, while">
-      <created>1580068626069</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1580068626069</updated>
     </task>
     <task id="LOCAL-00029" summary="HomeWork 5 массивы">
       <created>1580071731747</created>
@@ -547,12 +516,24 @@
       <option name="project" value="LOCAL" />
       <updated>1580923804262</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Lesson 8 jdbc">
+      <created>1580926568497</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1580926568498</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Lesson 8 JDBC">
+      <created>1580926595929</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1580926595929</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Lesson 4" />
-    <MESSAGE value="HomeWork 2" />
     <MESSAGE value="HomeWork 2 Car class fix" />
     <MESSAGE value="i" />
     <MESSAGE value="HomeWork 2 class Car" />
@@ -576,7 +557,9 @@
     <MESSAGE value="HomeWork Коллекции" />
     <MESSAGE value="HomeWork строки" />
     <MESSAGE value="Lesson 8 Jason" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 8 Jason" />
+    <MESSAGE value="Lesson 8 jdbc" />
+    <MESSAGE value="Lesson 8 JDBC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 8 JDBC" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="68" key="#Code_Folding" timestamp="1580829296461">
@@ -603,10 +586,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="269" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1580914952567" />
-    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2" timestamp="1580926566511">
+    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2" timestamp="1580926606044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580926566511" />
+    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580926606044" />
     <state x="549" y="164" key="FileChooserDialogImpl" timestamp="1580925680071">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -92,7 +92,7 @@ class TestGoods{
         Goods product5 = new Goods("Фарш говяжий",119.0,3);
         Goods product6 = new Goods("Печнь цеплят",99.0,4);
 
-        product6.
+        Object product7 = new Goods("Голень индейки",99.0,4);
 
         // Создать несколько объектов класса Категория
         Category cat1 = new Category("Молочная продукция",product1, product2);
@@ -102,7 +102,7 @@ class TestGoods{
 
 
         // создание корзины
-        Basket basket1 = new Basket(product1, product5);
+        Basket basket1 = new Basket(product1, product5, (Goods) product7);
 
 
         // Создать объект класса User
