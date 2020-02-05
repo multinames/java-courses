@@ -1,14 +1,10 @@
-[
-  {
-    "name": "Artem",
-    "age": 15
-  },
-  {
-    "name": "Vasya",
-    "age": 20
-  },
-  {
-    "name": "Petya",
-    "age" : 14
-  }
-]
+[ {
+  "name" : "Artem",
+  "age" : 11
+}, {
+  "name" : "Viktor",
+  "age" : 56
+}, {
+  "name" : "Sergey",
+  "age" : 45
+} ]

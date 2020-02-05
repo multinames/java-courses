@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/Udemy/Udemy.iml" filepath="$PROJECT_DIR$/Udemy/Udemy.iml" />
       <module fileurl="file://$PROJECT_DIR$/alishev/alishev.iml" filepath="$PROJECT_DIR$/alishev/alishev.iml" />
       <module fileurl="file://$PROJECT_DIR$/gosha/gosha.iml" filepath="$PROJECT_DIR$/gosha/gosha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jet/src/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jet/src/jdbc/jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/jet/jet.iml" filepath="$PROJECT_DIR$/jet/jet.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbit/rabbit.iml" filepath="$PROJECT_DIR$/rabbit/rabbit.iml" />
     </modules>
