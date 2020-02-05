@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fdfc0a7-dea7-44d7-ae3c-1fb44732afd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jet/src/Lesson8/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet/src/Lesson8/JsonParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet/src/Lesson8/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet/src/Lesson8/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet/src/Lesson8/PeopleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet/src/Lesson8/class.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myclass.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peopleList.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Life/src/com/company/Lesson8/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Life/src/com/company/Lesson8/Goods.java" afterDir="false" />
     </list>
@@ -34,7 +42,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="last_opened_file_path" value="C:/pub/util/jackson-annotations-2.9.8.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -54,26 +62,13 @@
       <recent name="C:\Git\java-courses\Udemy\src\com\company" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Home4">
-    <configuration name="Example12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWork3.Example12" />
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson8.App" />
       <module name="jet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeWork3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Example8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWork3.Example8" />
-      <module name="jet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HomeWork3.*" />
+          <option name="PATTERN" value="Lesson8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,6 +108,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HomeWork3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGoods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lesson8.TestGoods" />
+      <module name="Life" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Lesson8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.TestGoods" />
         <item itemvalue="Application.Home4" />
         <item itemvalue="Application.Home7" />
         <item itemvalue="Application.Home2" />
-        <item itemvalue="Application.Example8" />
-        <item itemvalue="Application.Example12" />
       </list>
     </recent_temporary>
   </component>
@@ -187,13 +195,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579781484423</updated>
-    </task>
-    <task id="LOCAL-00025" summary="HomeWork 2 case">
-      <created>1579985670763</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1579985670763</updated>
     </task>
     <task id="LOCAL-00026" summary="HomeWork 2">
       <created>1580058034492</created>
@@ -531,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580915618004</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="HomeWork строки">
+      <created>1580917760784</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1580917760786</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -567,10 +575,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="68" key="#Code_Folding/0.0.1536.824@0.0.1536.824" timestamp="1580829296461" />
-    <state x="361" y="68" key="#Project_Structure" timestamp="1580839063460">
+    <state x="361" y="68" key="#Project_Structure" timestamp="1580922394139">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="68" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1580839063460" />
+    <state x="361" y="68" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1580922394139" />
     <state x="499" y="164" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1580908999718">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -579,38 +587,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="540" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1580749688950" />
-    <state x="506" y="84" key="#com.intellij.ide.util.MemberChooser" timestamp="1580849510174">
+    <state x="506" y="84" key="#com.intellij.ide.util.MemberChooser" timestamp="1580923114343">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="506" y="84" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580849510174" />
+    <state x="506" y="84" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580923114343" />
     <state x="566" y="269" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580914952567">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="269" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1580914952567" />
-    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2" timestamp="1580915615748">
+    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2" timestamp="1580917758588">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580915615748" />
+    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580917758588" />
     <state x="549" y="164" key="FileChooserDialogImpl" timestamp="1580839060118">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="164" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580839060118" />
-    <state width="727" height="131" key="GridCell.Tab.0.bottom" timestamp="1580915545554">
+    <state width="727" height="131" key="GridCell.Tab.0.bottom" timestamp="1580923762414">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580915545554" />
-    <state width="727" height="131" key="GridCell.Tab.0.center" timestamp="1580915545554">
+    <state width="727" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580923762414" />
+    <state width="727" height="131" key="GridCell.Tab.0.center" timestamp="1580923762414">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580915545554" />
-    <state width="727" height="131" key="GridCell.Tab.0.left" timestamp="1580915545553">
+    <state width="727" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580923762414" />
+    <state width="727" height="131" key="GridCell.Tab.0.left" timestamp="1580923762414">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580915545553" />
-    <state width="727" height="131" key="GridCell.Tab.0.right" timestamp="1580915545554">
+    <state width="727" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580923762414" />
+    <state width="727" height="131" key="GridCell.Tab.0.right" timestamp="1580923762414">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580915545554" />
+    <state width="727" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580923762414" />
     <state width="727" height="236" key="GridCell.Tab.1.bottom" timestamp="1580835590841">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -675,10 +683,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1580903071366" />
-    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1580831839060">
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1580922073989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1580831839060" />
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1580922073989" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

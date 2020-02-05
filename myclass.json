@@ -1,0 +1,8 @@
+{
+  "className" : "A",
+  "classLevel": "2",
+  "people":{
+    "name":  "Artem",
+    "age": 8
+  }
+}
