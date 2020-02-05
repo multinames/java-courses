@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fdfc0a7-dea7-44d7-ae3c-1fb44732afd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Life/src/com/company/Lesson8/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Life/src/com/company/Lesson7/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Life/src/com/company/Lesson7/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +44,6 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Lesson5" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Git\java-courses\Udemy\src\com\company" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Git\java-courses\jet\src\Lesson1" />
       <recent name="C:\Git\java-courses" />
@@ -52,27 +51,17 @@
       <recent name="C:\Git\java-courses\Udemy\src\HomeWork20" />
       <recent name="C:\Git\java-courses\out\production" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Git\java-courses\Udemy\src\com\company" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TestGoods">
+  <component name="RunManager" selected="Application.TestCircle">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson7.App" />
       <module name="jet" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GameOver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson6.GameOver" />
-      <module name="jet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,6 +84,19 @@
     </configuration>
     <configuration name="TestAnimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Lesson8.TestAnimal" />
+      <module name="Life" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lesson8.TestCircle" />
       <module name="Life" />
       <extension name="coverage">
         <pattern>
@@ -168,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCircle" />
         <item itemvalue="Application.TestGoods" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.TestAnimal" />
-        <item itemvalue="Application.GameOver" />
       </list>
     </recent_temporary>
   </component>
@@ -186,13 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579781484423</updated>
-    </task>
-    <task id="LOCAL-00018" summary="HomeWork 1">
-      <created>1579970902620</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1579970902620</updated>
     </task>
     <task id="LOCAL-00019" summary="HomeWork 1 fix class name">
       <created>1579971441551</created>
@@ -530,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580849848217</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="gitignore">
+      <created>1580849918474</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1580849918475</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -578,30 +580,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="506" y="84" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580849510174" />
-    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2" timestamp="1580849880547">
+    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2" timestamp="1580903830953">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580849880547" />
+    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580903830953" />
     <state x="549" y="164" key="FileChooserDialogImpl" timestamp="1580839060118">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="164" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580839060118" />
-    <state width="727" height="131" key="GridCell.Tab.0.bottom" timestamp="1580849891231">
+    <state width="727" height="131" key="GridCell.Tab.0.bottom" timestamp="1580903760044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580849891231" />
-    <state width="727" height="131" key="GridCell.Tab.0.center" timestamp="1580849891231">
+    <state width="727" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580903760044" />
+    <state width="727" height="131" key="GridCell.Tab.0.center" timestamp="1580903760044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580849891231" />
-    <state width="727" height="131" key="GridCell.Tab.0.left" timestamp="1580849891230">
+    <state width="727" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580903760044" />
+    <state width="727" height="131" key="GridCell.Tab.0.left" timestamp="1580903760044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580849891230" />
-    <state width="727" height="131" key="GridCell.Tab.0.right" timestamp="1580849891231">
+    <state width="727" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580903760044" />
+    <state width="727" height="131" key="GridCell.Tab.0.right" timestamp="1580903760044">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580849891231" />
+    <state width="727" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580903760044" />
     <state width="727" height="236" key="GridCell.Tab.1.bottom" timestamp="1580835590841">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -630,18 +632,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580838135856" />
-    <state x="361" y="142" key="Vcs.Push.Dialog.v2" timestamp="1580849885411">
+    <state x="361" y="142" key="Vcs.Push.Dialog.v2" timestamp="1580849938109">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="142" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1580849885411" />
+    <state x="361" y="142" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1580849938109" />
     <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1580849908154">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="234" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580849908154" />
-    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580833798612">
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580901288369">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1580833798612" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1580901288369" />
     <state x="499" y="165" key="extract.method.dialog" timestamp="1580829053338">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -662,6 +664,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="475" y="38" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1580380739474" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1580903071366">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1580903071366" />
     <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1580831839060">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
