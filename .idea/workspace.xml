@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fdfc0a7-dea7-44d7-ae3c-1fb44732afd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jet/src/HomeWork3/Home4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jet/HomeWork3/Home2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jet/HomeWork3/Home2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Life/src/com/company/Lesson8/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Life/src/com/company/Lesson8/Goods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579781484423</updated>
-    </task>
-    <task id="LOCAL-00024" summary="HomeWork 2 if else part 3 fixde class">
-      <created>1579981412198</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1579981412198</updated>
     </task>
     <task id="LOCAL-00025" summary="HomeWork 2 case">
       <created>1579985670763</created>
@@ -532,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580914915189</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="HomeWork строки">
+      <created>1580915618004</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1580915618004</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -588,10 +587,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="269" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1580914952567" />
-    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2" timestamp="1580914913810">
+    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2" timestamp="1580915615748">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580914913810" />
+    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580915615748" />
     <state x="549" y="164" key="FileChooserDialogImpl" timestamp="1580839060118">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

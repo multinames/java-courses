@@ -92,6 +92,8 @@ class TestGoods{
         Goods product5 = new Goods("Фарш говяжий",119.0,3);
         Goods product6 = new Goods("Печнь цеплят",99.0,4);
 
+        product6.
+
         // Создать несколько объектов класса Категория
         Category cat1 = new Category("Молочная продукция",product1, product2);
         Category cat2 = new Category("Хлебо-булочные изделия",product1, product2);
