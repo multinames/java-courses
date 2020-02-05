@@ -17,13 +17,18 @@ class JsonParser {
     }
 
 
-    public static void writeToJson(People people, String fileName) {
+    public static<T> void writeToJson(T people, String fileName) {
         ObjectMapper objectMapper = new ObjectMapper();
-        try (Writer writer = new FileWriter (fileName)){
-            String result = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(people);
+        try (Writer writer = new FileWriter(fileName)) {
+            String result = objectMapper
+                    .writerWithDefaultPrettyPrinter()
+                    .writeValueAsString(people);
+            //System.out.println(result);
             writer.write(result);
-         }catch (IOException ex) {
+        }catch (IOException ex){
             System.out.println(ex.getMessage());
         }
     }
+
+
 }

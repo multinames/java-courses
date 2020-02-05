@@ -11,6 +11,11 @@ public class People {
 
     public People(){}
 
+    public People(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
     public String getName() {
         return name;
     }
@@ -34,4 +39,5 @@ public class People {
                 ", age=" + age +
                 '}';
     }
+
 }

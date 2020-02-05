@@ -19,9 +19,17 @@ public class App {
         people.setName("Artem");*/
      //    JsonParser.writeToJson(people, "output.json");
 
-        List <People> people = new ArrayList<>();
+        List<People> people = new ArrayList<>();
+        people.add(new People("Artem",11));
+        people.add(new People("Viktor",56));
+        people.add(new People("Sergey",45));
 
-        JsonParser.<List<People>>readJson((Class<List<People>>) people.getClass(),"peoplelist.json");
+        JsonParser.<List<People>>writeToJson(people,"peoplelist.json");
+
+
+        //List <People> people = new ArrayList<>();
+
+       // JsonParser.<List<People>>readJson((Class<List<People>>) people.getClass(),"peoplelist.json");
 
     }
 
