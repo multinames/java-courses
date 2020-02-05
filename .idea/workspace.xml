@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fdfc0a7-dea7-44d7-ae3c-1fb44732afd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Life/src/com/company/Lesson8/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet/src/HomeWork3/Exercise1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Life/src/com/company/Lesson7/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Life/src/com/company/Lesson7/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
       <recent name="C:\Git\java-courses\Udemy\src\com\company" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCircle">
+  <component name="RunManager" selected="Application.Exercise1">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson7.App" />
       <module name="jet" />
@@ -69,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson6.Main" />
+    <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork3.Exercise1" />
       <module name="jet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson6.*" />
+          <option name="PATTERN" value="HomeWork3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAnimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lesson8.TestAnimal" />
-      <module name="Life" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson6.Main" />
+      <module name="jet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Lesson8.*" />
+          <option name="PATTERN" value="Lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise1" />
         <item itemvalue="Application.TestCircle" />
         <item itemvalue="Application.TestGoods" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.TestAnimal" />
       </list>
     </recent_temporary>
   </component>
@@ -188,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579781484423</updated>
-    </task>
-    <task id="LOCAL-00019" summary="HomeWork 1 fix class name">
-      <created>1579971441551</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1579971441551</updated>
     </task>
     <task id="LOCAL-00020" summary="HomeWork 2 if else">
       <created>1579972483774</created>
@@ -532,11 +524,17 @@
       <option name="project" value="LOCAL" />
       <updated>1580849918475</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="HomeWork class Circle.java">
+      <created>1580903865930</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1580903865945</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Lesson 3 Generic" />
     <MESSAGE value="HomeWork 2 class Book" />
     <MESSAGE value="Lesson 3 Collection" />
     <MESSAGE value="Lesson 3 Collection forEach" />
@@ -561,7 +559,8 @@
     <MESSAGE value="Homework Goods.java" />
     <MESSAGE value="Lesson 6 Json parser" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="HomeWork class Circle.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork class Circle.java" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="68" key="#Code_Folding" timestamp="1580829296461">
@@ -580,30 +579,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="506" y="84" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580849510174" />
-    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2" timestamp="1580903830953">
+    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2" timestamp="1580903864899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580903830953" />
+    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580903864899" />
     <state x="549" y="164" key="FileChooserDialogImpl" timestamp="1580839060118">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="164" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580839060118" />
-    <state width="727" height="131" key="GridCell.Tab.0.bottom" timestamp="1580903760044">
+    <state width="727" height="131" key="GridCell.Tab.0.bottom" timestamp="1580904919697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580903760044" />
-    <state width="727" height="131" key="GridCell.Tab.0.center" timestamp="1580903760044">
+    <state width="727" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580904919697" />
+    <state width="727" height="131" key="GridCell.Tab.0.center" timestamp="1580904919697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580903760044" />
-    <state width="727" height="131" key="GridCell.Tab.0.left" timestamp="1580903760044">
+    <state width="727" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580904919697" />
+    <state width="727" height="131" key="GridCell.Tab.0.left" timestamp="1580904919697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580903760044" />
-    <state width="727" height="131" key="GridCell.Tab.0.right" timestamp="1580903760044">
+    <state width="727" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580904919697" />
+    <state width="727" height="131" key="GridCell.Tab.0.right" timestamp="1580904919697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580903760044" />
+    <state width="727" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580904919697" />
     <state width="727" height="236" key="GridCell.Tab.1.bottom" timestamp="1580835590841">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
