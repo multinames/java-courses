@@ -1,4 +1,4 @@
-package Lesson8;
+package HomeWork8_json;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -9,12 +9,12 @@ public class People {
     @JsonProperty
     private int age;
 
-      public People(){}
+    public People(){}
 
     public People(String name, int age) {
         this.name = name;
         this.age = age;
-      //  this.group = group;
+        //  this.group = group;
     }
 
     public String getName() {

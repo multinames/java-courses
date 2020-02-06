@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fdfc0a7-dea7-44d7-ae3c-1fb44732afd8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Life/src/com/company/Lesson8/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Life/src/com/company/Lesson8/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet/src/HomeWork8_json/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet/src/HomeWork8_json/JsonParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet/src/HomeWork8_json/Keys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet/src/HomeWork8_json/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet/src/Lesson8/Exapmle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet/src/Lesson8/Json1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet/src/jdbc/src/main/java/app/dao/PreparedDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet/src/jdbc/src/main/java/app/exeptions/PreparedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet/src/jdbc/src/main/java/app/util/MyConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jackson_core_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jackson_core_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet/src/Lesson8/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/jet/src/Lesson8/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet/src/Lesson8/JsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/jet/src/Lesson8/JsonParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet/src/Lesson8/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/jet/src/Lesson8/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet/src/jdbc/src/main/java/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/jet/src/jdbc/src/main/java/app/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peopleList.json" beforeDir="false" afterPath="$PROJECT_DIR$/peopleList.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -53,13 +70,13 @@
       <recent name="C:\Git\java-courses\Udemy\src\com\company" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.App" />
-      <module name="jdbc" />
+  <component name="RunManager" selected="Application.App (2)">
+    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork8_json.App" />
+      <module name="jet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="app.*" />
+          <option name="PATTERN" value="HomeWork8_json.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Home4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWork3.Home4" />
-      <module name="jet" />
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.App" />
+      <module name="jdbc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeWork3.*" />
+          <option name="PATTERN" value="app.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Home7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWork3.Home7" />
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson8.Example" />
       <module name="jet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeWork3.*" />
+          <option name="PATTERN" value="Lesson8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGoods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lesson8.TestGoods" />
-      <module name="Life" />
+    <configuration name="Json1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson8.Json1" />
+      <module name="jet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Lesson8.*" />
+          <option name="PATTERN" value="Lesson8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.Example" />
+        <item itemvalue="Application.Json1" />
         <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.TestGoods" />
-        <item itemvalue="Application.Home4" />
-        <item itemvalue="Application.Home7" />
       </list>
     </recent_temporary>
   </component>
@@ -186,13 +203,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579781484423</updated>
-    </task>
-    <task id="LOCAL-00029" summary="HomeWork 5 массивы">
-      <created>1580071731747</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1580071731747</updated>
     </task>
     <task id="LOCAL-00030" summary="HomeWork 5 массивы">
       <created>1580130230002</created>
@@ -530,11 +540,17 @@
       <option name="project" value="LOCAL" />
       <updated>1580926595929</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Goods.java">
+      <created>1580926621974</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1580926621974</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HomeWork 2 Car class fix" />
     <MESSAGE value="i" />
     <MESSAGE value="HomeWork 2 class Car" />
     <MESSAGE value="HomeWork 2 class Car , Engine" />
@@ -559,25 +575,26 @@
     <MESSAGE value="Lesson 8 Jason" />
     <MESSAGE value="Lesson 8 jdbc" />
     <MESSAGE value="Lesson 8 JDBC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 8 JDBC" />
+    <MESSAGE value="Goods.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Goods.java" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="68" key="#Code_Folding" timestamp="1580829296461">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="68" key="#Code_Folding/0.0.1536.824@0.0.1536.824" timestamp="1580829296461" />
-    <state x="361" y="68" key="#Project_Structure" timestamp="1580925569925">
+    <state x="361" y="68" key="#Project_Structure" timestamp="1581005816110">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="68" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1580925569925" />
+    <state x="361" y="68" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1581005816110" />
     <state x="499" y="164" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1580908999718">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="164" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1580908999718" />
-    <state x="540" y="212" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580749688950">
+    <state x="540" y="212" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581005793441">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="540" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1580749688950" />
+    <state x="540" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1581005793441" />
     <state x="506" y="84" key="#com.intellij.ide.util.MemberChooser" timestamp="1580924154078">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -586,30 +603,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="269" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1580914952567" />
-    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2" timestamp="1580926606044">
+    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2" timestamp="1580926620541">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580926606044" />
+    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580926620541" />
     <state x="549" y="164" key="FileChooserDialogImpl" timestamp="1580925680071">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="164" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580925680071" />
-    <state width="727" height="131" key="GridCell.Tab.0.bottom" timestamp="1580926500247">
+    <state width="727" height="131" key="GridCell.Tab.0.bottom" timestamp="1581005389926">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580926500247" />
-    <state width="727" height="131" key="GridCell.Tab.0.center" timestamp="1580926500246">
+    <state width="727" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581005389926" />
+    <state width="727" height="131" key="GridCell.Tab.0.center" timestamp="1581005389926">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580926500246" />
-    <state width="727" height="131" key="GridCell.Tab.0.left" timestamp="1580926500246">
+    <state width="727" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581005389926" />
+    <state width="727" height="131" key="GridCell.Tab.0.left" timestamp="1581005389926">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580926500246" />
-    <state width="727" height="131" key="GridCell.Tab.0.right" timestamp="1580926500246">
+    <state width="727" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581005389926" />
+    <state width="727" height="131" key="GridCell.Tab.0.right" timestamp="1581005389926">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580926500246" />
+    <state width="727" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581005389926" />
     <state width="727" height="236" key="GridCell.Tab.1.bottom" timestamp="1580835590841">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -638,10 +655,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580925714988" />
-    <state x="361" y="142" key="Vcs.Push.Dialog.v2" timestamp="1580923811135">
+    <state x="361" y="142" key="Vcs.Push.Dialog.v2" timestamp="1580926623193">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="142" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1580923811135" />
+    <state x="361" y="142" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1580926623193" />
     <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1580849908154">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

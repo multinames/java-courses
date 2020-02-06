@@ -19,12 +19,22 @@ public class App {
         people.setName("Artem");*/
      //    JsonParser.writeToJson(people, "output.json");
 
-        List<People> people = new ArrayList<>();
+        List<People> people_one = new ArrayList<>();
+        people_one.add(new People("Artem",10));
+        people_one.add(new People("Viktor",11));
+
+        List<People> people_two = new ArrayList<>();
+        people_two.add(new People("Alexey",14));
+        people_two.add(new People("Sergey",14));
+
+/*
         people.add(new People("Artem",11));
         people.add(new People("Viktor",56));
         people.add(new People("Sergey",45));
+*/
 
-        JsonParser.<List<People>>writeToJson(people,"peoplelist.json");
+        JsonParser.<List<People>>writeToJson(people_one,"peoplelist.json");
+        JsonParser.<List<People>>writeToJson(people_two,"peoplelist.json");
 
 
         //List <People> people = new ArrayList<>();
@@ -33,7 +43,7 @@ public class App {
 
     }
 
-    private static void readJson(String s) {
+    /*private static void readJson(String s) {
         try(InputStream in = new FileInputStream(s)){
             ObjectMapper objectMapper = new ObjectMapper();
             People people = objectMapper.<People>readValue(in, People.class);
@@ -41,6 +51,5 @@ public class App {
         }catch (IOException ex) {
             System.out.println(ex.getMessage());
         }
-     }
-
+     }*/
 }

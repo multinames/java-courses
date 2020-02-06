@@ -1,11 +1,11 @@
-package Lesson8;
+package HomeWork8_json;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.*;
 
-public class JsonParser {
+class JsonParser {
     public static <T> void readJson(Class<T> clazz, String fileName) {
         try(InputStream in = new FileInputStream(fileName)){
             ObjectMapper objectMapper = new ObjectMapper();
@@ -33,3 +33,4 @@ public class JsonParser {
 
 
 }
+
