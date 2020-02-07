@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/gosha/gosha.iml" filepath="$PROJECT_DIR$/gosha/gosha.iml" />
       <module fileurl="file://$PROJECT_DIR$/jet/src/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jet/src/jdbc/jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/jet/jet.iml" filepath="$PROJECT_DIR$/jet/jet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jet/jetweb/jetweb.iml" filepath="$PROJECT_DIR$/jet/jetweb/jetweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbit/rabbit.iml" filepath="$PROJECT_DIR$/rabbit/rabbit.iml" />
     </modules>
   </component>
