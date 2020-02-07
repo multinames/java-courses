@@ -59,6 +59,8 @@ public class GoodRepository {
         try(Connection connection = MyConnection.getConnection();
             PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
 
+            preparedStatement.setInt(1,id);
+
            int result = preparedStatement.executeUpdate();
             System.out.println(result);
 
@@ -69,12 +71,19 @@ public class GoodRepository {
     }
 
     public static void update(Good good) throws PreparedException {
-       String sql = "UPDATE GOODS SET name = '"+good.getName() + "', amount =" +good.getAmount() + ", count =" +good.getCount() + " WHERE id = " +good.getId();
+       // String sql = "UPDATE GOODS SET name = '"+good.getName() + "', amount =" +good.getAmount() + ", count =" +good.getCount() + " WHERE id = " +good.getId();
 
-        //String sql = "UPDATE GOODS SET name ='MyName' , amount =1 , count =2 WHERE id = 3";
+        String sql = "UPDATE GOODS SET name = ? , amount = ? , count =? WHERE id = ?";
 
         try(Connection connection = MyConnection.getConnection();
             PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+            preparedStatement.setString(1, good.getName());
+            preparedStatement.setDouble(2, good.getAmount());
+            preparedStatement.setInt(3, good.getCount());
+            preparedStatement.setInt(4, good.getId());
+
+
+
 
             int result = preparedStatement.executeUpdate();
             System.out.println(result);

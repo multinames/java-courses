@@ -15,26 +15,29 @@ import java.util.List;
 public class App {
     public static void main(String[] args) throws PreparedException {
 
-      // GoodRepository.update(new Good("MyName",11,2,3));
+      GoodRepository.update(new Good("MyName",11,2,5));
 
 
 
         /// GoodRepository.delete(4);
         // PreparedDB.prepare();
-/*            Good good = new Good("Steak",1500,10);
+        // add new goods
+
+        /*    Good good = new Good("Steak",1500,10);
             GoodRepository.insert(good);*/
-       /* try {
-            List<Good> goods = GoodRepository.get(2;
+        try {
+            List<Good> goods = GoodRepository.get();
 
             for(Good g: goods){
                 System.out.println(g);
             }
         } catch (PreparedException e) {
             System.out.println(e.getMessage());;
-        }*/
+        }
 
-       Good good = GoodRepository.get(1);
+       /*Good good = GoodRepository.get(1);
         System.out.println(good);
-
+*/
+       // GoodRepository.delete(3);
     }
 }
