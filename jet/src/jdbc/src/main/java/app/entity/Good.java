@@ -16,6 +16,13 @@ public class Good {
         this.count = count;
     }
 
+    public  Good (String name, double amount, int count, int id) {
+        this.name=name;
+        this.amount = amount;
+        this.count = count;
+        this.id = id;
+    }
+
     public int getId() {
         return id;
     }

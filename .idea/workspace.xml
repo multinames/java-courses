@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fdfc0a7-dea7-44d7-ae3c-1fb44732afd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jet/src/jdbc/src/main/java/app/dao/GoodRepository/GoodRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jet/src/jdbc/src/main/java/app/entity/Good.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jet/src/jdbc/src/main/java/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/jet/src/jdbc/src/main/java/app/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jet/src/jdbc/src/main/java/app/dao/PreparedDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/jet/src/jdbc/src/main/java/app/dao/PreparedDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jet/src/jdbc/src/main/java/app/util/MyConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/jet/src/jdbc/src/main/java/app/util/MyConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet/src/jdbc/src/main/java/app/dao/GoodRepository/GoodRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jet/src/jdbc/src/main/java/app/dao/GoodRepository/GoodRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet/src/jdbc/src/main/java/app/entity/Good.java" beforeDir="false" afterPath="$PROJECT_DIR$/jet/src/jdbc/src/main/java/app/entity/Good.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +58,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.App" />
+      <module name="jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork8_json.App" />
       <module name="jet" />
@@ -192,13 +203,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579781484423</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Lesson 2 obj!">
-      <created>1580147798701</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1580147798701</updated>
     </task>
     <task id="LOCAL-00033" summary="Homework 2 class Phone">
       <created>1580211623354</created>
@@ -536,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581007819318</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Lesson8 JDBC">
+      <created>1581012682005</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1581012682005</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -592,30 +603,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="269" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1580914952567" />
-    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2" timestamp="1581007818410">
+    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2" timestamp="1581012679379">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581007818410" />
+    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581012679379" />
     <state x="549" y="164" key="FileChooserDialogImpl" timestamp="1580925680071">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="164" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580925680071" />
-    <state width="727" height="131" key="GridCell.Tab.0.bottom" timestamp="1581012658202">
+    <state width="727" height="131" key="GridCell.Tab.0.bottom" timestamp="1581092030092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581012658202" />
-    <state width="727" height="131" key="GridCell.Tab.0.center" timestamp="1581012658201">
+    <state width="727" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581092030092" />
+    <state width="727" height="131" key="GridCell.Tab.0.center" timestamp="1581092030092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581012658201" />
-    <state width="727" height="131" key="GridCell.Tab.0.left" timestamp="1581012658201">
+    <state width="727" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581092030092" />
+    <state width="727" height="131" key="GridCell.Tab.0.left" timestamp="1581092030092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581012658201" />
-    <state width="727" height="131" key="GridCell.Tab.0.right" timestamp="1581012658201">
+    <state width="727" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581092030092" />
+    <state width="727" height="131" key="GridCell.Tab.0.right" timestamp="1581092030092">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="727" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581012658201" />
+    <state width="727" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581092030092" />
     <state width="727" height="236" key="GridCell.Tab.1.bottom" timestamp="1580835590841">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -644,10 +655,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580925714988" />
-    <state x="361" y="142" key="Vcs.Push.Dialog.v2" timestamp="1581007883768">
+    <state x="361" y="142" key="Vcs.Push.Dialog.v2" timestamp="1581012689453">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="142" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581007883768" />
+    <state x="361" y="142" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581012689453" />
     <state x="465" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1580849908154">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -672,10 +683,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="494" y="257" key="git4idea.ui.GitUnstashDialog/0.0.1536.824@0.0.1536.824" timestamp="1580744681164" />
-    <state x="209" y="30" key="new project wizard" timestamp="1580924788511">
+    <state x="209" y="30" key="new project wizard" timestamp="1581075251645">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="30" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1580924788511" />
+    <state x="209" y="30" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1581075251645" />
     <state x="475" y="38" key="refactoring.ChangeSignatureDialog" timestamp="1580380739474">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

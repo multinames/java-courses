@@ -13,22 +13,28 @@ import java.util.List;
 // ResultSet - для хранения результатов запрсов SELECT
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws PreparedException {
 
-        try {
-           // PreparedDB.prepare();
+      // GoodRepository.update(new Good("MyName",11,2,3));
+
+
+
+        /// GoodRepository.delete(4);
+        // PreparedDB.prepare();
 /*            Good good = new Good("Steak",1500,10);
             GoodRepository.insert(good);*/
+       /* try {
+            List<Good> goods = GoodRepository.get(2;
 
-              List<Good> goods = GoodRepository.get();
-
-              for(Good g: goods){
-                  System.out.println(g);
-              }
+            for(Good g: goods){
+                System.out.println(g);
+            }
         } catch (PreparedException e) {
             System.out.println(e.getMessage());;
-        }
+        }*/
 
+       Good good = GoodRepository.get(1);
+        System.out.println(good);
 
     }
 }
