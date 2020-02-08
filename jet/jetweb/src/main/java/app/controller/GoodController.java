@@ -1,7 +1,7 @@
 package app.controller;
 
 import app.entity.Good;
-import app.service.GoodService;
+import app.service.GoodServiceInMemory;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -10,21 +10,34 @@ import java.util.List;
 public class GoodController {
     @GetMapping("/get")
     public List<Good> getGoods(){
-        GoodService gs = new GoodService();
+        GoodServiceInMemory gs = new GoodServiceInMemory();
         return gs.get();
     }
 
-    @PostMapping
+    @PostMapping("/add")
     public boolean add (@RequestBody Good good) {
-        GoodService gs = new GoodService();
+        GoodServiceInMemory gs = new GoodServiceInMemory();
         gs.insert(good);
+        return true;
+    }
+
+    @DeleteMapping("/del")
+    public boolean delete(@RequestBody int id) {
+        GoodServiceInMemory gs = new GoodServiceInMemory();
+        gs.delete(id);
         return true;
     }
 
     @GetMapping("/get/{id}")
     public Good get(@PathVariable("id")int id) {
-        GoodService gs = new GoodService();
-        return  gs.get(id);
+        GoodServiceInMemory gs = new GoodServiceInMemory();
+        return gs.get(id);
+    }
+    @PostMapping("/update")
+    public boolean update(@RequestBody Good good) {
+        GoodServiceInMemory gs = new GoodServiceInMemory();
+        gs.update(good);
+        return true;
     }
 
 
