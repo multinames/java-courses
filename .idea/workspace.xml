@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fdfc0a7-dea7-44d7-ae3c-1fb44732afd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jet/jetweb/src/main/java/app/service/GoodServiceInJms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jet/jetweb/src/main/java/app/service/GoodServiceInMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_messaging_saaj_saaj_impl_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_jws_jakarta_jws_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_soap_jakarta_xml_soap_api_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_ws_jakarta_xml_ws_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_mimepull_mimepull_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_services_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ws_spring_ws_core_3_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ws_spring_xml_3_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__wsdl4j_wsdl4j_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet/jetweb/src/main/java/app/soap/CountryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jet/jetweb/src/main/resources/countries.xsd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jet/jetweb/src/main/java/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/jet/jetweb/src/main/java/app/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet/jetweb/jetweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jet/jetweb/jetweb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jet/jetweb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jet/jetweb/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jet/jetweb/src/main/java/app/controller/GoodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jet/jetweb/src/main/java/app/controller/GoodController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jet/jetweb/src/main/java/app/service/GoodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jet/jetweb/src/main/java/app/service/GoodService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,13 +234,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579781484423</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Homework 2 class Phone">
-      <created>1580219052896</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1580219052896</updated>
     </task>
     <task id="LOCAL-00037" summary="Homework 2 class Student &amp; Aspirant">
       <created>1580220271871</created>
@@ -567,7 +571,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581107526543</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Lesson9 soap">
+      <created>1581150181834</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1581150181834</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -628,30 +639,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="269" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1580914952567" />
-    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2" timestamp="1581107524432">
+    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2" timestamp="1581150180718">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581107524432" />
+    <state x="424" y="0" width="688" height="824" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581150180718" />
     <state x="549" y="164" key="FileChooserDialogImpl" timestamp="1580925680071">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="164" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580925680071" />
-    <state width="1493" height="131" key="GridCell.Tab.0.bottom" timestamp="1581148936117">
+    <state width="1493" height="131" key="GridCell.Tab.0.bottom" timestamp="1581153939226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581148936117" />
-    <state width="1493" height="131" key="GridCell.Tab.0.center" timestamp="1581148936117">
+    <state width="1493" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581153939226" />
+    <state width="1493" height="131" key="GridCell.Tab.0.center" timestamp="1581153939226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581148936117" />
-    <state width="1493" height="131" key="GridCell.Tab.0.left" timestamp="1581148936117">
+    <state width="1493" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581153939226" />
+    <state width="1493" height="131" key="GridCell.Tab.0.left" timestamp="1581153939226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581148936117" />
-    <state width="1493" height="131" key="GridCell.Tab.0.right" timestamp="1581148936117">
+    <state width="1493" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581153939226" />
+    <state width="1493" height="131" key="GridCell.Tab.0.right" timestamp="1581153939226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581148936117" />
+    <state width="1493" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581153939226" />
     <state width="727" height="236" key="GridCell.Tab.1.bottom" timestamp="1580835590841">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -668,6 +679,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="727" height="236" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580835590841" />
+    <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1581153483961">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1581153483961" />
     <state x="481" y="125" key="MultipleFileMergeDialog" timestamp="1580820045515">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

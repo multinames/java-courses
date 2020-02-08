@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/jaxb" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -45,6 +46,18 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.2.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.2.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.2.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web-services:2.2.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.xml.messaging.saaj:saaj-impl:1.5.1" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.activation:jakarta.activation-api:1.2.1" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.xml.soap:jakarta.xml.soap-api:1.4.1" level="project" />
+    <orderEntry type="library" name="Maven: org.jvnet.mimepull:mimepull:1.9.12" level="project" />
+    <orderEntry type="library" name="Maven: org.jvnet.staxex:stax-ex:1.8.1" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.xml.ws:jakarta.xml.ws-api:2.3.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: jakarta.jws:jakarta.jws-api:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-oxm:5.2.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.ws:spring-ws-core:3.0.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.ws:spring-xml:3.0.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: wsdl4j:wsdl4j:1.6.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:2.2.2.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:2.2.2.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:2.2.2.RELEASE" level="project" />
@@ -53,8 +66,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: net.minidev:accessors-smart:1.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.ow2.asm:asm:5.0.4" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.29" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: jakarta.activation:jakarta.activation-api:1.2.1" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter:5.5.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.5.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.0" level="project" />
