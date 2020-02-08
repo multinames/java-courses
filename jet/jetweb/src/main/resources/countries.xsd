@@ -9,10 +9,26 @@
         </xs:complexType>
     </xs:element>
 
+    <xs:element name="addCountryRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="country" type="tns:country"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
     <xs:element name="getCountryResponse">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="country" type="tns:country"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="addCountryResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="answer" type="xs:boolean"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -28,6 +44,7 @@
 
     <xs:simpleType name="currency">
         <xs:restriction base="xs:string">
+            <xs:enumeration value="RUR"/>
             <xs:enumeration value="GBP"/>
             <xs:enumeration value="EUR"/>
             <xs:enumeration value="PLN"/>

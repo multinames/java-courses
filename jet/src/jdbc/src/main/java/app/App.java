@@ -4,6 +4,8 @@ import app.dao.GoodRepository.GoodRepository;
 import app.dao.PreparedDB;
 import app.entity.Good;
 import app.exeptions.PreparedException;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.List;
 
@@ -12,10 +14,14 @@ import java.util.List;
 // PrepareStatement - для выполенения подготовленных запросов
 // ResultSet - для хранения результатов запрсов SELECT
 
+@SpringBootApplication
 public class App {
-    public static void main(String[] args) throws PreparedException {
+    public static void main(String[] args)  {
+        SpringApplication.run(App.class, args);
 
-      GoodRepository.update(new Good("MyName",11,2,5));
+
+
+      //GoodRepository.update(new Good("MyName",11,2,5));
 
 
 
@@ -25,7 +31,7 @@ public class App {
 
         /*    Good good = new Good("Steak",1500,10);
             GoodRepository.insert(good);*/
-        try {
+        /*try {
             List<Good> goods = GoodRepository.get();
 
             for(Good g: goods){
@@ -34,7 +40,7 @@ public class App {
         } catch (PreparedException e) {
             System.out.println(e.getMessage());;
         }
-
+*/
        /*Good good = GoodRepository.get(1);
         System.out.println(good);
 */
