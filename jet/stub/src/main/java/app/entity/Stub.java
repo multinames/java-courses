@@ -1,6 +1,7 @@
 package app.entity;
 
 public class Stub {
+
     private String answer;
 
     public Stub() {
