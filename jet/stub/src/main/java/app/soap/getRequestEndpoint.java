@@ -27,8 +27,6 @@ public class getRequestEndpoint {
         cash.setDescription("success");
         cash.setStatuscode(1);
         proc.setReturn(cash);
-
-
         return proc;
     }
 
