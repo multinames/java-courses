@@ -25,17 +25,17 @@ public class WSConfig extends WsConfigurerAdapter {
     }
 
     @Bean(name = "stub")
-    public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema countriesSchema) {
+    public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema stubSchema) {
         DefaultWsdl11Definition wsdl11Definition = new DefaultWsdl11Definition();
         wsdl11Definition.setPortTypeName("StubPort");
         wsdl11Definition.setLocationUri("/ws");
         wsdl11Definition.setTargetNamespace("http://soapstub.mycompany.com/");
-        wsdl11Definition.setSchema(countriesSchema);
+        wsdl11Definition.setSchema(stubSchema);
         return wsdl11Definition;
     }
 
     @Bean
-    public XsdSchema countriesSchema() {
+    public XsdSchema stubSchema() {
         return new SimpleXsdSchema(new ClassPathResource("SoapStub.xsd"));
     }
 
