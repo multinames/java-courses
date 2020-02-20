@@ -13,18 +13,13 @@ public class Flower {
         return label;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    // Конструктор
+    // Конструктор цветов
     public Flower (String name, double price, String label){
         this.name = name;
         this.price = price;
         this.label = label;
 
     }
-
 
     @Override
     public String toString() {
@@ -33,7 +28,6 @@ public class Flower {
                 " price=" + price +
                  '}';
     }
-
 
 }
 
