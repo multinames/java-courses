@@ -10,7 +10,7 @@ public class Bouquet {
     private int count;
 
 
-    HashMap<Integer, Integer> countId = new HashMap<>();
+    HashMap<String, Integer> countId = new HashMap<>();
 
     public String getName() {
         return name;
@@ -26,19 +26,22 @@ public class Bouquet {
     public void checkBouquet(String name, ArrayList<Flower> bouquet) {
         double itog = 0.0;
         int getid = 0;
-
-
         count = 0;
 
         for (Flower flower: bouquet) {
            itog = itog +flower.getPrice();
-
            count=count+1;
-           countId.put(flower.getId(),getid+=1);
-            //System.out.println(bu.getId());
+
+           if (countId.get(flower.getLabel()) != null) {
+               getid = countId.get(flower.getLabel());
+           } else { getid =0;}
+
+           countId.put(flower.getLabel(), getid+=1);
+//            System.out.print(flower.getLabel()+" "+countId.get(flower.getLabel())+" ");
+
         }
-        System.out.println("Цена букета \""+name+  "\" = " + itog+ " Всего цветов: " +count);
-        System.out.println(countId);
+        System.out.println("Цена букета \""+name+  "\" = " + itog+ " Всего цветов: " +count + " "+ countId);
+
     }
 
 }
@@ -47,10 +50,10 @@ class CreateBouquet {
     public static void main(String[] args) {
 
         // Создание цветов
-        Flower rose = new Rose("Роза белая",95.5,1);
-        Flower tulip = new Tulip("Тюльпан обычный",55.3,2);
-        Flower lily = new Lily("Лилия белая",140.3,3);
-        Flower carnation = new Carnation("Гвоздика обычная",69.0,4);
+        Flower rose = new Rose("Роза белая",95.5,"rose1");
+        Flower tulip = new Tulip("Тюльпан обычный",55.3,"tul1");
+        Flower lily = new Lily("Лилия белая",140.3,"lil1");
+        Flower carnation = new Carnation("Гвоздика обычная",69.0,"car1");
 
         // Создание букетов
         Bouquet bb1 = new Bouquet("Розы и лилии");

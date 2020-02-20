@@ -3,14 +3,14 @@ package com.company.Flowers;
 public class Flower {
     private String name;
     private double price;
-    private int id;
+    private String label;
 
     public double getPrice() {
         return price;
     }
 
-    public int getId() {
-        return id;
+    public String getLabel() {
+        return label;
     }
 
     public String getName() {
@@ -18,10 +18,10 @@ public class Flower {
     }
 
     // Конструктор
-    public Flower (String name, double price, int id){
+    public Flower (String name, double price, String label){
         this.name = name;
         this.price = price;
-        this.id = id;
+        this.label = label;
 
     }
 
@@ -39,28 +39,28 @@ public class Flower {
 
 class Rose extends Flower {
 
-    public Rose(String name, double price, int id) {
-        super(name, price, id);
+    public Rose(String name, double price, String label) {
+        super(name, price, label);
     }
 }
 
 class Tulip extends Flower {
 
-    public Tulip(String name, double price, int id) {
-        super(name, price, id);
+    public Tulip(String name, double price, String label) {
+        super(name, price, label);
     }
 }
 
 class Carnation extends Flower {
 
-    public Carnation(String name, double price, int id) {
-        super(name, price, id);
+    public Carnation(String name, double price, String label) {
+        super(name, price, label);
     }
 }
 
 class Lily extends Flower {
 
-    public Lily(String name, double price, int id) {
-        super(name, price, id);
+    public Lily(String name, double price, String label) {
+        super(name, price, label);
     }
 }
