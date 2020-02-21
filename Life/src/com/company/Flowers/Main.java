@@ -6,8 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
         // Создание цветов
-        Flower rose = new Rose("Роза белая",95.5,"rose1");
-        Flower tulip = new Tulip("Тюльпан обычный",55.3,"tul1");
+        Flower rose = new Rose("Роза белая",95.5,"роза белая");
+        Flower tulip = new Tulip("Тюльпан обычный",55.3,"tulip");
         Flower lily = new Lily("Лилия белая",140.3,"lil1");
         Flower carnation = new Carnation("Гвоздика обычная",69.0,"car1");
 
@@ -49,6 +49,5 @@ public class Main {
         System.out.println();
         bb3.checkBouquet(bb3.getName(), buk3);
 
-
-}
+    }
 }

@@ -7,7 +7,7 @@ import java.util.HashMap;
 public class Bouquet {
 
     private String name; // Имя букета
-    public int count;
+    private int count;
 
     // Таблица количества цветов
     HashMap<String, Integer> flowerTab = new HashMap<>();
@@ -41,6 +41,7 @@ public class Bouquet {
         System.out.println("Цена букета \""+name+  "\" = " + itog+ " Всего цветов: " +count + " "+ flowerTab);
 
     }
+
 
 }
 
