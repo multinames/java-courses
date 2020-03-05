@@ -6,21 +6,42 @@ package app;
 import java.sql.*;
 
 public class Main {
-    private static final String URL= "jdbc:mysql://localhost:3306/javat";
+    /*private static final String URL= "jdbc:mysql://localhost:3306/javat";
     private final static String URLFIXED =
             "jdbc:mysql://localhost:3306/javat?useUnicode=true&useSSL=true&useJDBCCompliantTimezoneShift=true" +
                     "&useLegacyDatetimeCode=false&serverTimezone=UTC";
     private static final String USERNAME = "javat";
-    private static final String PASSWORD = "java123";
+    private static final String PASSWORD = "java123";*/
 
 
     public static void main(String[] args) {
         Connection connection = null;
+         DBWorker worker = new DBWorker();
+
+         String query = "select * from users";
+
         try {
+            Statement statement = worker.getConnection().createStatement();
+            ResultSet resultSet = statement.executeQuery(query);
+
+            while (resultSet.next()) {
+                User user = new User();
+                user.setId(resultSet.getInt(1));
+                user.setUsername(resultSet.getString(2));
+                user.setPassword(resultSet.getString(3));
+                System.out.println(user);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        //  int res = statement.executeUpdate("UPDATE animal SET animal_name='NewName' WHERE id=1");
+
+       /* try {
             connection=
             DriverManager.getConnection(URLFIXED,USERNAME, PASSWORD);
             Statement statement = connection.createStatement();
-
+*/
              // statement.execute("INSERT INTO animal(animal_name, animal_des) VALUES('cat1','good_cat1')");
              //statement.execute("select * from animal");
            // int res = statement.executeUpdate("UPDATE animal SET animal_name='NewName' WHERE id=1");
@@ -28,6 +49,7 @@ public class Main {
 
 
             // System.out.println(res);
+/*
 
             statement.addBatch("INSERT INTO animal(animal_name, animal_des) VALUES('cat11','good_cat12')");
             statement.addBatch("INSERT INTO animal(animal_name, animal_des) VALUES('cat2','good_cat22')");
@@ -46,6 +68,7 @@ public class Main {
             //System.err.println("Что то пошло не так....");
             e.printStackTrace();
         }
+*/
 
     }
 }
