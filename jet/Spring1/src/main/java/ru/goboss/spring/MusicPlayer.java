@@ -31,19 +31,23 @@ public class MusicPlayer {
         this.volume = volume;
     }
 
+    /*public void setMusic(Music music) {
+        this.musicList = (List<Music>) music;
+    }*/
+
     public MusicPlayer() {
     }
 
     //IoC
-    public MusicPlayer(Music music){
+    /*public MusicPlayer(Music music){
         this.musicList = (List<Music>) music;
-    }
+    }*/
 
-    public void setMusic(Music music) {
-        this.musicList = (List<Music>) music;
-    }
+
 
     public void playMusic(){
-        System.out.println("Playing : "+ musicList);
+
+        for (Music music : musicList)
+        System.out.println("Playing : "+ music.getSong());
     }
 }
