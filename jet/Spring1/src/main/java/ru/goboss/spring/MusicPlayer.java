@@ -43,8 +43,6 @@ public class MusicPlayer {
         this.musicList = (List<Music>) music;
     }*/
 
-
-
     public void playMusic(){
 
         for (Music music : musicList)
