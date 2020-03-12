@@ -18,11 +18,16 @@
     </bean>
 
     <bean id="musicBeanClassic"
-          class="ru.goboss.spring.ClassicMusic">
+          class="ru.goboss.spring.ClassicMusic"
+          init-method ="doInit"
+          destroy-method="doClose"
+          factory-method="getClassicalMusic">
+
     </bean>
 
         <bean id="musicPlayer"
-              class="ru.goboss.spring.MusicPlayer">
+              class="ru.goboss.spring.MusicPlayer"
+              scope = "prototype">
 
             <property name="musicList">
                 <list>
