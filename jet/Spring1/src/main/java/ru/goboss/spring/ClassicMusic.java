@@ -1,7 +1,10 @@
 package ru.goboss.spring;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class ClassicMusic implements Music {
-    private ClassicMusic(){}
+    /*private ClassicMusic(){}
 
     public static ClassicMusic getClassicalMusic(){
         return new ClassicMusic();
@@ -12,7 +15,7 @@ public class ClassicMusic implements Music {
     }
     public  void doClose(){
         System.out.println("Уничтожение Бина");
-    }
+    }*/
 
     @Override
     public String getSong() {
