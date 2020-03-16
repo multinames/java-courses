@@ -1,22 +1,31 @@
 package ru.goboss.spring;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
 public class MusicPlayer {
 
-    private ClassicMusic classicMusic;
-    private RockMusic rockMusic;
+   /* private ClassicMusic classicMusic;
+    private RockMusic rockMusic;*/
 
-    // @Autowired
-    // private Music music;
+     /*@Autowired
+     @Qualifier("classicMusic")*/
+    private Music music1;
+    private Music music2;
 
-   @Autowired
+    @Autowired
+    public MusicPlayer(@Qualifier("rockMusic") Music music1, @Qualifier("classicMusic") Music music2) {
+        this.music1 = music1;
+        this.music2 = music2;
+    }
+
+    /*@Autowired
     public MusicPlayer(ClassicMusic classicMusic, RockMusic rockMusic) {
         this.classicMusic = classicMusic;
         this.rockMusic = rockMusic;
-    }
+    }*/
 
     // @Autowired
     /*public MusicPlayer(Music music) {
@@ -29,7 +38,7 @@ public class MusicPlayer {
     }*/
 
     public void playMusic() {
-        System.out.println("Playing: " + classicMusic.getSong());
-        System.out.println("Playing: " + rockMusic.getSong());
+        System.out.println("Playing: " + music1.getSong()+ ", " + music2.getSong() );
+      //  System.out.println("Playing: " + rockMusic.getSong());
     }
 }
