@@ -2,6 +2,8 @@ package ru.goboss.spring;
 
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
+
 @Component
 public class ClassicMusic implements Music {
     /*private ClassicMusic(){}
@@ -18,7 +20,11 @@ public class ClassicMusic implements Music {
     }*/
 
     @Override
-    public String getSong() {
-        return "Hungarian Rhapsody";
+    public ArrayList<String> getSong() {
+        ArrayList<String> list = new ArrayList<>();
+        list.add("Hungarian Rhapsody");
+        list.add("Heart of Courage");
+        list.add("River Flows In You");
+        return list;
     }
 }

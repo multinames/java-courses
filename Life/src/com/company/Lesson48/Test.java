@@ -9,7 +9,9 @@ public class Test {
     public static void main(String[] args) {
         Animal animal = Animal.CAT;
 
-        switch (animal) {
+        System.out.println(animal.name());
+
+    /*    switch (animal) {
             case CAT:
                 System.out.println("It's Cat");
                 break;
@@ -21,5 +23,5 @@ public class Test {
                 break;
         }
 
-    }
+*/    }
 }
