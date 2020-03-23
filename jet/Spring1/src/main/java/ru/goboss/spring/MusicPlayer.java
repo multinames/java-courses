@@ -45,13 +45,9 @@ public class MusicPlayer {
         String genre2 = new String("ClassicMusic");*/
 
         Random r = new Random();
-
         int x = r.nextInt(2);
 
-        System.out.println(genre.equals(AllMusic.RockMusic));
-
-
-        if (genre.equals(AllMusic.RockMusic)) {
+              if (genre.equals(AllMusic.RockMusic)) {
             System.out.println("Playing: " + music2.getSong().get(x));
         } else if (genre.equals(AllMusic.ClassicMusic)) {
             System.out.println("Playing: " + music1.getSong().get(x));
