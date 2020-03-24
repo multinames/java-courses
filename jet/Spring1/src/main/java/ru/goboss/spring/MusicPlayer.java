@@ -2,6 +2,7 @@ package ru.goboss.spring;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.util.Random;
@@ -9,10 +10,21 @@ import java.util.Random;
 @Component
 public class MusicPlayer {
 
-   /* private ClassicMusic classicMusic;
-    private RockMusic rockMusic;*/
+   @Value("${musicPlayer.name}")
+   private String name;
 
-     /*@Autowired
+   @Value("${musicPlayer.volume}")
+   private int volume;
+
+    public String getName() {
+        return name;
+    }
+
+    public int getVolume() {
+        return volume;
+    }
+
+      /*@Autowired
      @Qualifier("classicMusic")*/
     private Music music1;
     private Music music2;
