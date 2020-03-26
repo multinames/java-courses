@@ -4,9 +4,8 @@ import java.util.ArrayList;
 
 public class JazzMusic implements Music {
     @Override
-    public ArrayList<String> getSong() {
-        ArrayList<String> list = new ArrayList<>();
-        list.add("Jazz Band");
-        return list;
+    public String getSong() {
+
+        return "Jazz Band";
     }
 }

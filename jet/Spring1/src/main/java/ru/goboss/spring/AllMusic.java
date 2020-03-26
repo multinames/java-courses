@@ -1,6 +1,6 @@
 package ru.goboss.spring;
 
 public enum AllMusic {
-    ClassicMusic, RockMusic;
+    ClassicMusic, RockMusic, JazzMusic;
     String type;
 }
