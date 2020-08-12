@@ -1,0 +1,12 @@
+public class Dog extends Animal {
+
+ @Override
+ public void eat(){
+  System.out.println("Dod is Eating");
+ }
+
+ public void bark(){
+  System.out.println("Dog is gav");
+ }
+
+ }
