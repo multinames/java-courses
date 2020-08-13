@@ -1,5 +1,8 @@
-public class Animal {
+public abstract class Animal {
     public void eat() {
-        System.out.println("Animal is eating");
+        System.out.println("I'm eating...");
     }
+
+    public abstract void makeSound();
+    //абстрактный метод не имеет реализации
 }
