@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fdfc0a7-dea7-44d7-ae3c-1fb44732afd8" name="Default Changelist" comment="">
+    <list default="true" id="9fdfc0a7-dea7-44d7-ae3c-1fb44732afd8" name="Default Changelist" comment="Lesson29 add new methods">
+      <change afterPath="$PROJECT_DIR$/alishev/Lesson26/Interfaces/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alishev/Lesson26/Interfaces/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alishev/Lesson26/Interfaces/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alishev/Lesson26/Interfaces/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alishev/Lesson29/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/alishev/Lesson29/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alishev/Lesson29/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/alishev/Lesson29/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alishev/Lesson29/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/alishev/Lesson29/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alishev/Lesson29/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/alishev/Lesson29/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alishev/alishev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alishev/alishev.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -69,7 +71,7 @@
       <recent name="C:\Git\java-courses\out\production" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.App" />
       <module name="jdbc" />
@@ -110,19 +112,6 @@
       </method>
     </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson8.App" />
-      <module name="jet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.App" />
       <module name="jetweb" />
       <method v="2">
@@ -135,6 +124,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="app.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfaces.Test" />
+      <module name="alishev" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (2)" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -216,13 +218,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579781484423</updated>
-    </task>
-    <task id="LOCAL-00041" summary="HomeWork 2 class Book">
-      <created>1580237946566</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1580237946567</updated>
     </task>
     <task id="LOCAL-00042" summary="Lesson 3 Collection">
       <created>1580237967396</created>
@@ -560,7 +555,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597314660073</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Lesson29 add new methods">
+      <created>1597315355631</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1597315355633</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -593,38 +595,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="Lesson29 add new methods" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1597315262475">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1597325551050">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1597315262475" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1597325551050" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597314329744">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597314329744" />
-    <state x="424" y="7" key="CommitChangelistDialog2" timestamp="1597314657454">
+    <state x="424" y="7" key="CommitChangelistDialog2" timestamp="1597315359114">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597314657454" />
-    <state width="1493" height="301" key="GridCell.Tab.0.bottom" timestamp="1597315320705">
+    <state x="424" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597315359114" />
+    <state width="1493" height="301" key="GridCell.Tab.0.bottom" timestamp="1597325931204">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="301" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597315320705" />
-    <state width="1493" height="301" key="GridCell.Tab.0.center" timestamp="1597315320705">
+    <state width="1493" height="301" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597325931204" />
+    <state width="1493" height="301" key="GridCell.Tab.0.center" timestamp="1597325931204">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="301" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597315320705" />
-    <state width="1493" height="301" key="GridCell.Tab.0.left" timestamp="1597315320705">
+    <state width="1493" height="301" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597325931204" />
+    <state width="1493" height="301" key="GridCell.Tab.0.left" timestamp="1597325931204">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="301" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597315320705" />
-    <state width="1493" height="301" key="GridCell.Tab.0.right" timestamp="1597315320705">
+    <state width="1493" height="301" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597325931204" />
+    <state width="1493" height="301" key="GridCell.Tab.0.right" timestamp="1597325931204">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="301" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597315320705" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597266563855">
+    <state width="1493" height="301" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597325931204" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597315362816">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597266563855" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597315362816" />
+    <state x="431" y="145" key="search.everywhere.popup" timestamp="1597324972239">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1597324972239" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
