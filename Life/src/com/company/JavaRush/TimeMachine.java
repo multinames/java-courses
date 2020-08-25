@@ -1,33 +1,36 @@
 package com.company.JavaRush;
 
+import com.company.JavaRush.Cat;
+
 public class TimeMachine {
 
-    public void goToFuture(int currentYear) {
+    public void goToFuture(Cat cat) {
 
-        currentYear = currentYear+10;
+        cat.age += 10;
     }
 
-    public void goToPast(int currentYear) {
+    public void goToPast(Cat cat) {
 
-        System.out.println("Метод goToPast начал работу!");
-
-        System.out.println("Значение currentYear внутри метода goToPast (в начале) = " + currentYear);
-        currentYear = currentYear-10;
-        System.out.println("Значение currentYear внутри метода goToPast (в конце) = " + currentYear);
+        cat.age -= 10;
     }
 
     public static void main(String[] args) {
 
         TimeMachine timeMachine = new TimeMachine();
-        int currentYear = 2020;
 
-        System.out.println("Какой год в самом начале работы программы?");
-        System.out.println(currentYear);
+        Cat barsik = new Cat(5);
 
-        timeMachine.goToPast(currentYear);
-        System.out.println("А сейчас какой год?");
-        System.out.println(currentYear);
+        System.out.println("Сколько лет Барсику в самом начале работы программы?");
+        System.out.println(barsik.age);
+
+        timeMachine.goToFuture(barsik);
+        System.out.println("А теперь?");
+        System.out.println(barsik.age);
+
+        System.out.println("Елки-палки! Барсик постарел на 10 лет! Живо гони назад!");
+        timeMachine.goToPast(barsik);
+        System.out.println("Получилось? Мы вернули коту его изначальный возраст?");
+        System.out.println(barsik.age);
     }
 
 }
-

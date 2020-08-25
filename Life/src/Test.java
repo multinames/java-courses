@@ -1,17 +1,12 @@
 public class Test {
-    public static void main(String[] args) {
 
-   // convertCtoF(41);
-        circlel(5);
-    }
+        public static void main(String[] args) {
 
-    public static void circlel(double radius) {
+            System.out.println("It's Java string: \\\"C:\\\\Program Files\\\\Java\\\\jdk1.7.0\\\\bin\\\"");
 
-        double l;
-        double pi=3.14;
-        //System.out.println(tc);
-        l = 2* pi* radius;
-        System.out.println(l);
+            System.out.println("It's Windows path: \"C:\\Program Files\\Java\\jdk1.7.0\\bin\"");
+        }
 
-    }
+
 }
+
