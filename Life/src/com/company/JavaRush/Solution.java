@@ -1,27 +1,22 @@
 package com.company.JavaRush;
 
+import java.util.Scanner;
+
 public class Solution {
 
     public static void main(String[] args) {
-        displayClosestToTen(8, 11);
-        displayClosestToTen(7, 14);
-    }
 
+        Scanner scanner = new Scanner(System.in);
+        int year = scanner.nextInt();
 
-    public static void displayClosestToTen(int a, int b) {
-
-        if (abs(10-a) < abs(10-b))
-            System.out.println(a);
+       if ((year&400) == 0)
+            System.out.println("400/ количество дней в году: 366");
+        else if ((year&100) == 0)
+            System.out.println("100/ количество дней в году: 365");
+        else if ((year&4) == 0)
+            System.out.println("4/ количество дней в году: 366");
         else
-            System.out.println(b);
+            System.out.println("/ количество дней в году: 365");
 
-    }
-
-    public static int abs(int a) {
-        if (a < 0) {
-            return -a;
-        } else {
-            return a;
-        }
     }
 }
