@@ -5,15 +5,17 @@ import java.util.Scanner;
 public class InputKey {
 
     public static void main(String[] args) {
-        System.out.println(toSum(145));
-        }
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите число: ");
+        int a = scanner.nextInt();
 
-    public static int toSum (int number) {
-        int sum = 0;
-        for (;number>0;number /=10) {
-            int number_create = number % 10;
-            sum = sum + number_create;
-        }
-        return sum;
+        if (a > 0)
+            System.out.println(a*2);
+        else if (a < 0 )
+            System.out.println(a+1);
+        else
+            System.out.println(0);
     }
+
+
 }
