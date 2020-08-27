@@ -1,22 +1,28 @@
 package com.company.JavaRush;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 
 public class Solution {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
-        Scanner scanner = new Scanner(System.in);
-        int year = scanner.nextInt();
+     //    Scanner scanner = new Scanner(System.in);
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String num= reader.readLine();
+        double minute = Double.parseDouble(num);
 
-       if ((year&400) == 0)
-            System.out.println("400/ количество дней в году: 366");
-        else if ((year&100) == 0)
-            System.out.println("100/ количество дней в году: 365");
-        else if ((year&4) == 0)
-            System.out.println("4/ количество дней в году: 366");
-        else
-            System.out.println("/ количество дней в году: 365");
-
-    }
+        double green = 3.0;
+        double yellow = 4.0;
+        double red = 5.0;
+        minute = minute % 5;
+        if (minute < green)
+            System.out.println("зелёный");
+        else if (minute < yellow)
+         	System.out.println("жёлтый");
+        else if (minute < red)
+            System.out.println("красный");
+        }
 }
