@@ -7,39 +7,41 @@ import java.io.InputStreamReader;
 public class InputNumber {
 
     public static void main(String[] args) throws IOException {
+
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String a1= reader.readLine();
-        String b1= reader.readLine();
-        String c1= reader.readLine();
-        String d1= reader.readLine();
-        int a = Integer.parseInt(a1);
-        int b = Integer.parseInt(b1);
-        int c = Integer.parseInt(c1);
-        int d = Integer.parseInt(d1);
 
-        int max1, max2;
-
-        if (a>b)
-            max1 = a;
-        else
-            max1 = b;
-
-        if (c>d)
-            max2=c;
-        else
-            max2=d;
-
-        if (max1>max2)
-            System.out.println(max1);
-        else if (max2>max1)
-            System.out.println(max2);
-        else
-            System.out.println(max1);
+        String a= reader.readLine();
+        String b= reader.readLine();
+        String c= reader.readLine();
+        int n1 = Integer.parseInt(a);
+        int n2 = Integer.parseInt(b);
+        int n3 = Integer.parseInt(c);
 
 
-               // else System.out.println(a);
+        int t3 = 0, t2 = 0, t1 = 0;
 
 
-    }
+        if (n1 > n2 & n1 > n3 ) {
+            t3 = n1;
+            if (n2 > n3) {t2=n2; t1=n3;}
+            else {t2 = n3; t1 = n2;}
+        }
 
+        if (n2 > n1 & n2 > n3 ) {
+            t3 = n2;
+            if (n1 > n3) {t2=n1; t1=n3;}
+            else {t2 = n3; t1 = n1;}
+        }
+
+        if (n3 > n1 & n3 > n2 ) {
+            t3 = n3;
+            if (n1 > n2) { t2=n1; t1=n2;}
+            else {t2 = n2; t1 = n1;}
+        }
+
+
+        System.out.print(t3+ " "+ t2+ " "+ t1);
+
+
+        }
 }

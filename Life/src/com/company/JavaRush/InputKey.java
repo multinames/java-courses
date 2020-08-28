@@ -15,17 +15,7 @@ public class InputKey {
         else
             System.out.println("Треугольник  существует");
 
-//        else if (a==b)
-//            System.out.println(a+ " " +b);
-//        else if (a==c)
-//            System.out.println(a+ " " +c);
-//        else if (b==c)
-//            System.out.println(b + " " +c);
 
-
-
-
-//        System.out.println(a + b + c);
     }
 
 
