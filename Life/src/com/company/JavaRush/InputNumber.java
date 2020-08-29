@@ -40,6 +40,38 @@ public class InputNumber {
         }
 
 
+        if (n3 == n1 & n3 == n2 ) {
+            t3 = n3; t2=n2; t1=n1;
+        }
+
+        if (n1==n2 & n3 < n1) {
+            t3 = n1; t2=n2; t1=n3;
+        }
+
+        if (n1==n2 & n3 > n1) {
+            t3 = n3; t2=n2; t1=n1;
+        }
+
+        if (n1==n3 & n2 > n1) {
+            t3 = n2; t2=n1; t1=n3;
+        }
+
+        if (n1==n3 & n2 < n1) {
+            t3 = n3; t2=n1; t1=n2;
+        }
+
+        if (n1==n3 & n2 > n1) {
+            t3 = n2; t2=n1; t1=n3;
+        }
+
+        if (n2==n3 & n1 < n2) {
+            t3 = n3; t2=n2; t1=n1;
+        }
+
+        if (n2==n3 & n1 > n2) {
+            t3 = n1; t2=n2; t1=n3;
+        }
+
         System.out.print(t3+ " "+ t2+ " "+ t1);
 
 

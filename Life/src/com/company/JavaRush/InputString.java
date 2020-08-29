@@ -12,6 +12,12 @@ public class InputString {
         String name1 = reader.readLine();
         String name2 = reader.readLine();
 
-        System.out.println(name1.length()+ " " +name2.length());
+        if (name1.equals(name2)==true)
+            System.out.println("Имена идентичны");
+        else if(name1.length()==name2.length())
+            System.out.println("Длины имен равны");
+
+
+        // System.out.println(name1.length()+ " " +name2.length());
     }
 }
