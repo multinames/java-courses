@@ -11,69 +11,40 @@ public class InputNumber {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         String a= reader.readLine();
-        String b= reader.readLine();
-        String c= reader.readLine();
-        int n1 = Integer.parseInt(a);
-        int n2 = Integer.parseInt(b);
-        int n3 = Integer.parseInt(c);
+        int num = Integer.parseInt(a);
 
+        if (num==0) {
+            System.out.println("ноль");
 
-        int t3 = 0, t2 = 0, t1 = 0;
-
-
-        if (n1 > n2 & n1 > n3 ) {
-            t3 = n1;
-            if (n2 > n3) {t2=n2; t1=n3;}
-            else {t2 = n3; t1 = n2;}
         }
 
-        if (n2 > n1 & n2 > n3 ) {
-            t3 = n2;
-            if (n1 > n3) {t2=n1; t1=n3;}
-            else {t2 = n3; t1 = n1;}
+        if (plus(num) == false & chet(num)==true & num !=0)
+            System.out.println("отрицательное четное число");
+
+        if (plus(num) == false & chet(num)==false & num !=0)
+            System.out.println("отрицательное нечетное число");
+
+        if (plus(num) == true & chet(num)==true & num !=0)
+            System.out.println("положительное четное число");
+
+        if (plus(num) == true & chet(num)==false & num !=0)
+            System.out.println("положительное нечетное число");
+    }
+
+        public static boolean chet(int a) {
+        boolean b;
+        if (a%2==0)
+            b=true;
+        else
+            b=false;
+        return b;
         }
 
-        if (n3 > n1 & n3 > n2 ) {
-            t3 = n3;
-            if (n1 > n2) { t2=n1; t1=n2;}
-            else {t2 = n2; t1 = n1;}
-        }
+        public static boolean plus(int a) {
+        boolean b;
+        if (a > 0) b = true;
+        else b=false;
 
-
-        if (n3 == n1 & n3 == n2 ) {
-            t3 = n3; t2=n2; t1=n1;
-        }
-
-        if (n1==n2 & n3 < n1) {
-            t3 = n1; t2=n2; t1=n3;
-        }
-
-        if (n1==n2 & n3 > n1) {
-            t3 = n3; t2=n2; t1=n1;
-        }
-
-        if (n1==n3 & n2 > n1) {
-            t3 = n2; t2=n1; t1=n3;
-        }
-
-        if (n1==n3 & n2 < n1) {
-            t3 = n3; t2=n1; t1=n2;
-        }
-
-        if (n1==n3 & n2 > n1) {
-            t3 = n2; t2=n1; t1=n3;
-        }
-
-        if (n2==n3 & n1 < n2) {
-            t3 = n3; t2=n2; t1=n1;
-        }
-
-        if (n2==n3 & n1 > n2) {
-            t3 = n1; t2=n2; t1=n3;
-        }
-
-        System.out.print(t3+ " "+ t2+ " "+ t1);
-
-
+        return b;
         }
 }
