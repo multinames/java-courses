@@ -1,22 +1,44 @@
 package com.company.JavaRush.lavel6;
 
-class Cat {
+import java.util.ArrayList;
 
-  private static int catCount =0;
+/*
+Статические коты
+*/
 
-  public Cat() {
-      catCount++;
-  }
+public class Cat {
 
+    //напишите тут ваш код
+    public static ArrayList<Cat> cats = new ArrayList<>();
 
-    public static int getCatCount() {
-        return catCount;
+    public Cat() {
+
     }
 
-    public static void setCatCount(int catCount) {
-        Cat.catCount=catCount;
-    }
     public static void main(String[] args) {
+        //напишите тут ваш код
+
+        Cat.cats.add(new Cat());
+        Cat.cats.add(new Cat());
+        Cat.cats.add(new Cat());
+        Cat.cats.add(new Cat());
+        Cat.cats.add(new Cat());
+        Cat.cats.add(new Cat());
+        Cat.cats.add(new Cat());
+        Cat.cats.add(new Cat());
+        Cat.cats.add(new Cat());
+        Cat.cats.add(new Cat());
+
+        printCats();
+
+    }
+
+    public static void printCats() {
+
+        for (Cat item : cats
+             ) {
+            System.out.println(item);
+        }
 
     }
 
