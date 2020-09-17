@@ -1,0 +1,20 @@
+{
+  "root": {
+    "value": 9,
+    "left": {
+      "value": 8,
+      "left": {
+        "value": -3
+      }
+    },
+    "right": {
+      "value": 23,
+      "left": {
+        "value": 12
+      },
+      "right": {
+        "value": 49
+      }
+    }
+  }
+}

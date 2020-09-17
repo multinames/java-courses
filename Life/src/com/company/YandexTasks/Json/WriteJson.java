@@ -4,10 +4,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 import java.io.*;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
 
 public class WriteJson {
 
@@ -27,7 +24,7 @@ public class WriteJson {
 
         //   System.out.println(json1[2]);
 
-      PersonToJSon person2 = GSON.fromJson(json1,PersonToJSon.class);
+        PersonToJSon person2 = GSON.fromJson(json1,PersonToJSon.class);
         System.out.println(person2.getId());
          System.out.println(person2.getName());
          System.out.println(person2.getGeo());
