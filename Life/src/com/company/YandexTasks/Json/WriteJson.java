@@ -14,16 +14,21 @@ public class WriteJson {
     public static final Gson GSON = new GsonBuilder().setPrettyPrinting().create() ;
 
     public static void main(String[] args) {
-        PersonToJSon person1 = new PersonToJSon(1, "Иван", Arrays.asList("Москва", "Дубай", "Токио"));
-        //PersonToJSon person2 = new PersonToJSon(2,"Марья");
+        PersonToJSon person1 = new PersonToJSon(1, "Иван", Arrays.asList("Москва", "Дубай", "Токио","Жопа мира"));
 
         String json = GSON.toJson(person1);
 
-        System.out.println(json);
+  //      System.out.println(json);
 
-        File file = new File("c:\\tmp\\file2json.txt");
+
+            writeToFile(json,"c:\\tmp\\file2json.txt");
+    }
+
+
+    public static void writeToFile (String json, String patch) {
+        File file = new File(patch);
         try {
-        //    file.createNewFile();
+            //    file.createNewFile();
             FileWriter writer = new FileWriter(file);
             writer.write(json);
             writer.flush();
@@ -32,7 +37,6 @@ public class WriteJson {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 
 
