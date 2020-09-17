@@ -1,15 +1,20 @@
-package com.company.YandexTasks;
+package com.company.YandexTasks.Json;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
-public class Person implements Serializable {
-
+public class PersonToJSon implements Serializable {
     private int id;
     private String name;
+    private List<String> geo = new ArrayList<>();
 
-    public Person(int id, String name) {
+
+
+    public PersonToJSon(int id, String name, List<String> geo) {
         this.id = id;
         this.name = name;
+        this.geo = geo;
     }
 
     public int getId() {
