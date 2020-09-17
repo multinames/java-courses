@@ -10,7 +10,6 @@ public class PersonToJSon implements Serializable {
     private List<String> geo = new ArrayList<>();
 
 
-
     public PersonToJSon(int id, String name, List<String> geo) {
         this.id = id;
         this.name = name;
@@ -24,6 +23,10 @@ public class PersonToJSon implements Serializable {
     public String getName() {
         return name;
     }
+    public List<String> getGeo() {
+        return geo;
+    }
+
 
     @Override
     public String toString() {

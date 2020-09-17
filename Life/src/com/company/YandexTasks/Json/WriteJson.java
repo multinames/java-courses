@@ -3,11 +3,11 @@ package com.company.YandexTasks.Json;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
 
 public class WriteJson {
 
@@ -17,6 +17,20 @@ public class WriteJson {
         PersonToJSon person1 = new PersonToJSon(1, "Иван", Arrays.asList("Москва", "Дубай", "Токио","Жопа мира"));
 
         String json = GSON.toJson(person1);
+
+        String json1 = null;
+        try {
+            json1 = readFromJson("c:\\tmp\\file2json.txt");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        //   System.out.println(json1[2]);
+
+      PersonToJSon person2 = GSON.fromJson(json1,PersonToJSon.class);
+        System.out.println(person2.getId());
+         System.out.println(person2.getName());
+         System.out.println(person2.getGeo());
 
   //      System.out.println(json);
 
@@ -37,6 +51,20 @@ public class WriteJson {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    private static String readFromJson(String fileName) throws IOException {
+        BufferedReader reader = new BufferedReader( new FileReader (fileName));
+        String line = null;
+        StringBuilder stringBuilder = new StringBuilder();
+        String ls = System.getProperty("line.separator");
+        while( ( line = reader.readLine() ) != null ) {
+            stringBuilder.append( line );
+            stringBuilder.append( ls );
+        }
+
+        stringBuilder.deleteCharAt(stringBuilder.length()-1);
+        return stringBuilder.toString();
     }
 
 

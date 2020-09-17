@@ -1,6 +1,5 @@
 package com.company.YandexTasks.Json;
 
-import com.company.YandexTasks.Person;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -20,14 +19,16 @@ public class ReadJson {
 
         PersonToJSon person1 = GSON.fromJson(json, PersonToJSon.class);
 
+
 //        System.out.println(person1.getId());
   //      System.out.println(person1.getName());
 
-        readFronJson("c:\\tmp\\file2json.txt");
+        System.out.println(readFromJson("c:\\tmp\\file2json.txt"));
+
 
     }
 
-    public static void readFronJson(String file) {
+    public static char[] readFromJson(String file) {
         FileReader fr = null;
         try {
             fr = new FileReader(file);
@@ -41,12 +42,16 @@ public class ReadJson {
             e.printStackTrace();
         }
 
-        for(char c : a)
-            System.out.print(c);   // Вывод символов один за другими
+  //      System.out.println(a[6]);
+
+//        for(char c : a)
+//            System.out.print(c);   // Вывод символов один за другими
+
         try {
             fr.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return a;
     }
 }
