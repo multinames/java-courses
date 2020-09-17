@@ -9,7 +9,7 @@ public class String1 {
         String[] s1 = s.split(" ");
         StringBuilder s2 = new StringBuilder();
         for (int i = s1.length; i != 0; i--) {
-            s2.append(s1[i - 1]+ " ");
+            s2.append(s1[i - 1] + " ");
                   }
         return s2;
     }
