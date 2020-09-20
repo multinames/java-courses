@@ -37,14 +37,16 @@ public class File2 {
 
             while ( fline1 != null) {
                 count2++;
+                //открываем второй файл
+                FileReader fileReader2 = new FileReader(file2);
+                BufferedReader reader2 = new BufferedReader(fileReader2);
+                String fline2 = reader2.readLine();
 
                 //второй цикл для чтения второго файла
                 while (flag == true) {
                     count1++;
 
-                    FileReader fileReader2 = new FileReader(file2);
-                    BufferedReader reader2 = new BufferedReader(fileReader2);
-                    String fline2 = reader2.readLine();
+
                     System.out.println(fline1 + " " +fline2);
 
                     if (fline1.equals(fline2)) {
