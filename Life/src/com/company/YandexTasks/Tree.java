@@ -19,7 +19,8 @@ class Main {
         tree.insert(2, "T800");
 
         String json = GSON.toJson(tree);
-        writeToFile(json,"c:\\tmp\\binaryTree.json");
+        System.out.println(json);
+    //    writeToFile(json,"c:\\tmp\\binaryTree.json");
 
     }
 

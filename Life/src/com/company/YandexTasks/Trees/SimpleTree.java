@@ -1,4 +1,4 @@
-package com.company.YandexTasks;
+package com.company.YandexTasks.Trees;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -21,8 +21,7 @@ class SimpleThree<T extends Comparable<T>> {
         String json = GSON.toJson(tree);
         System.out.println(json);
 
-//        for ( int i: tree.toList() )
-//            System.out.println(i);
+
     }
 
     private class Node {

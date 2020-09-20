@@ -1,30 +1,33 @@
-package com.company.YandexTasks;
+package com.company.YandexTasks.Trees;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-
 public class BinaryTree {
+
+    Node root;
 
     public static final Gson GSON = new GsonBuilder().setPrettyPrinting().create() ;
 
     public static void main(String[] args) {
-        BinaryTree binaryTree = new BinaryTree();
-        binaryTree.add(9);
-        binaryTree.add(23);
-        binaryTree.add(8);
-        binaryTree.add(-3);
-        binaryTree.add(49);
-        binaryTree.add(12);
 
-        String json = GSON.toJson(binaryTree);
-        writeToFile(json,"binaryTree.json");
+        BinaryTree binaryTree = new BinaryTree();
+
+        binaryTree.insert(8);
+        binaryTree.insert(4);
+        binaryTree.insert(2);
+        binaryTree.insert(3);
+        binaryTree.insert(10);
+        binaryTree.insert(6);
+        binaryTree.insert(7);
+
+       System.out.println(binaryTreeToJson(binaryTree));
      }
 
-    Node root;
+    public static String binaryTreeToJson(BinaryTree binaryTree) {
+        String json = GSON.toJson(binaryTree);
+        return json;
+    }
 
     class Node {
         int value;
@@ -38,7 +41,8 @@ public class BinaryTree {
         }
     }
 
-    public void add(int value) {
+    public void insert(int value)
+    {
         root = addRecursive(root, value);
     }
 
@@ -55,20 +59,6 @@ public class BinaryTree {
         }
 
         return current;
-    }
-
-    public static void writeToFile (String json, String patch) {
-        File file = new File(patch);
-        try {
-            //    file.createNewFile();
-            FileWriter writer = new FileWriter(file);
-            writer.write(json);
-            writer.flush();
-            writer.close();
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 
  }
