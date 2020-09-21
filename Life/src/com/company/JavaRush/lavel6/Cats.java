@@ -21,6 +21,9 @@ public class Cats {
         String motherName = reader.readLine();
         Cat catMother = new Cat(motherName, null, catGrandMother);
 
+        String sonName = reader.readLine();
+        Cat catSon = new Cat(sonName,catFather, catMother);
+
         String daughterName = reader.readLine();
         Cat catDaughter = new Cat(daughterName,catFather, catMother);
 
@@ -32,10 +35,11 @@ public class Cats {
 
         System.out.println(catMother);
 
+        System.out.println(catSon);
+
         System.out.println(catDaughter);
 
     }
-
 
     public static class Cat {
 
@@ -43,11 +47,9 @@ public class Cats {
         private Cat parent2;
         private Cat parent;
 
-
         Cat(String name) {
             this.name = name;
         }
-
 
         Cat(String name, Cat parent2, Cat parent) {
             this.name = name;
@@ -55,7 +57,6 @@ public class Cats {
             this.parent = parent;
 
         }
-
 
         @Override
         public String toString() {
@@ -65,7 +66,7 @@ public class Cats {
                 return "The cat's name is " + name + ", no mother, father is " + parent2.name;
 
             else if (parent2 == null)
-                return "The cat's name is " + name + ", mother is " + parent.name + " no father" ;
+                return "The cat's name is " + name + ", mother is " + parent.name + ", no father" ;
 
             else
                 return "The cat's name is " + name + ", mother is " + parent.name + ", father is " + parent2.name;
