@@ -43,9 +43,8 @@ public class File2 {
                 String fline2 = reader2.readLine();
 
                 //второй цикл для чтения второго файла
-                while (flag == true) {
+                while (flag==true && fline2 != null) {
                     count1++;
-
 
                     System.out.println(fline1 + " " +fline2);
 
@@ -59,7 +58,7 @@ public class File2 {
                         System.out.println("Нет совпадения!!");
                         appendFile("c:\\tmp\\file2.txt",fline1);
                       //  fline1 = reader1.readLine();
-                    //    fline2 = reader2.readLine();
+                      fline2 = reader2.readLine();
                         flag = false;
                     }
                 }
