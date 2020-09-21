@@ -52,8 +52,9 @@ public class DoWhile {
                         // второго файла, пока не конец цикла
                         if (fline1.equals(fline2)) {
                             System.out.println("Совпадение");
+                            fline1 = reader1.readLine();
 
-                        } else //иначе пишем строку из первого файла во второй и выходим из второго цикла
+                        } else if (!fline1.equals(fline2))//иначе пишем строку из первого файла во второй и выходим из второго цикла
                          {
                             System.out.println("Нет совпадения!!");
                             appendFile("c:\\tmp\\file2.txt",fline1);
@@ -84,11 +85,6 @@ public class DoWhile {
         }
 
 
-
-
-
-
-
         private static void appendFile(String patch, String str) {
             //Переход на новую строку
             final String sp = System.getProperty("line.separator");
@@ -112,5 +108,4 @@ public class DoWhile {
             }
         }
     }
-
 
