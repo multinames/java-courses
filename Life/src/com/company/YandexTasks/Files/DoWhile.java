@@ -24,15 +24,14 @@ public class DoWhile {
                 BufferedReader reader1 = new BufferedReader(fileReader1);
 
                 // Читаем втророй файл
-                //  FileReader fileReader2 = new FileReader(file2);
-//           BufferedReader reader2 = new BufferedReader(fileReader2);
+      //          FileReader fileReader2 = new FileReader(file2);
+        //        BufferedReader reader2 = new BufferedReader(fileReader2);
 
-                // Читаем первую строку
+                // Читаем первые строки файлов
                 String fline1 = reader1.readLine();
-                //      String fline2 = reader2.readLine();
+    //            String fline2 = reader2.readLine();
 
-                int count1 = 0;
-                int count2 = 0;
+                int count1 = 0; int count2 = 0;
 
                 //первый цикл для чтения первого файла
 
@@ -64,18 +63,11 @@ public class DoWhile {
                     }while (fline2 != null); // читаем пока не конец второго файла
 
                     fline1 = reader1.readLine();
-                    //fline2 = reader2.readLine();
-
+                   //fline2 = reader2.readLine();
                 }
-
 
                 System.out.println("Итераций первого цикла: " +count1);
                 System.out.println("Итераций второго цикла: " +count2);
-
-
-
-
-
 
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
@@ -83,7 +75,6 @@ public class DoWhile {
                 e.printStackTrace();
             }
         }
-
 
         private static void appendFile(String patch, String str) {
             //Переход на новую строку

@@ -6,9 +6,9 @@ public class String1 {
     }
 
     public static StringBuilder rearrangement(String s) {
-        String[] s1 = s.split(" ");
-        StringBuilder s2 = new StringBuilder();
-        for (int i = s1.length; i != 0; i--) {
+        String[] s1 = s.split(" "); //разделяем строку на подстроки
+        StringBuilder s2 = new StringBuilder(); // создаем новую строку
+        for (int i = s1.length; i != 0; i--) { // переставляем слова
             s2.append(s1[i - 1] + " ");
                   }
         return s2;
