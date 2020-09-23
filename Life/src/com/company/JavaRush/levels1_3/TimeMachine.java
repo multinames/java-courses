@@ -1,6 +1,4 @@
-package com.company.JavaRush;
-
-import com.company.JavaRush.Cat;
+package com.company.JavaRush.levels1_3;
 
 public class TimeMachine {
 

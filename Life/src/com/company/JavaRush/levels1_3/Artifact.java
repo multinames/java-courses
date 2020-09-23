@@ -1,4 +1,4 @@
-package com.company.JavaRush;
+package com.company.JavaRush.levels1_3;
 
 public class Artifact {
     int number;

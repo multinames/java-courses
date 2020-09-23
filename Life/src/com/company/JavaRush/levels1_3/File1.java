@@ -1,4 +1,4 @@
-package com.company.JavaRush;
+package com.company.JavaRush.levels1_3;
 
 import java.io.*;
 
