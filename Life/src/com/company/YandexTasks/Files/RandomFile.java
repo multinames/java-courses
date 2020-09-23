@@ -41,7 +41,7 @@ public class RandomFile {
         private static String readStringFromFile(String filePath) throws IOException {
             // открываем файл только для чтения
             RandomAccessFile file = new RandomAccessFile(filePath, "r");
-            //file.seek(seek);
+         //   file.seek(0);
             String st = new String();
            st=file.readLine();
             file.close();
